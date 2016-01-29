@@ -25,7 +25,7 @@ Waking up and coding everyday used to feel hard, but now it doesn't. Goodness, I
 Writing every day is still hard, coding after work is still hard, asking for help is still hard, playing socialising and being a friend is still hard, giving trust giving love, that's still hard. But life is much easier if you do the hard things, even if its starts as doing it just once.
 
 Can I manage to do these unpleasant things for just 10 more seconds?
-1
+<br>1
 <br>2
 <br>3
 <br>4
