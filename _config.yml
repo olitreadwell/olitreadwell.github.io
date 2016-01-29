@@ -17,7 +17,7 @@ author:
   name:           'Oli Treadwell'
   url:            https://linkedin.com/in/olitreadwell
 
-paginate:         5
+paginate:         3
 
 # Custom vars
 version:          2.1.0
