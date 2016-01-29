@@ -22,12 +22,3 @@ Dev Bootcamp threw me into the unknown again and again. The number one skill tha
 Shoot me a [message](mailto:oliver.treadwell@gmail.com)
 
 Can't wait to hear from you.
-
-Cheers!
-
-Oli
-
-[![Email](http://maiyet.com/images/social-icon-newsletter.png)](mailto:oliver.treadwell@gmail.com)
-[![Twitter](https://www.repustate.com/media/images/social_icon.png)](http://bit.ly/olitreadwell-twitter)
-[![LinkedIn](http://smokingstoopstudios.com/graphics/socialmediaicons/linkedin033.png)](http://bit.ly/linkedin-olitreadwell)
-[![Github](https://plot.ly/static/img/logos/GitHub-Mark-64px.png)](http://bit.ly/github-olitreadwell)
