@@ -7,15 +7,15 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Oli Treadwell
-tagline:          'Small Changes'
+title:            "Git Commit \n\n Patch"
+tagline:          'Git Commit Patch'
 description:      'A collection of posts and projects by <a href="http://linkedin.com/in/olitreadwell" target="_blank">Oli Treadwell</a>'
 url:              http://olitreadwell.github.io
 baseurl:          /
 
 author:
   name:           'Oli Treadwell'
-  url:            https://twitter.com/olitreadwell
+  url:            https://linkedin.com/in/olitreadwell
 
 paginate:         5
 
