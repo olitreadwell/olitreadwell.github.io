@@ -3,6 +3,8 @@ layout: post
 title: "If you're going through hell, keep going"
 ---
 
+![Winston Churchill](public/assets/img/winston-churchill.jpg)
+
 While I was writing today I came across this piece of inner monologue.
 
 <blockquote>The thing about memories, is that I don't create my own memories. I haven't been going out and finding fun things to do. I haven't really figured out how to do that. It's super hard for me to do...."</blockquote>

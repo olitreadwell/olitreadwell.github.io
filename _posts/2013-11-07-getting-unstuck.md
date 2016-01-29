@@ -3,6 +3,8 @@ layout: post
 title: "Getting unstuck"
 ---
 
+![Getting Unstuck](/public/assets/img/getting-unstuck.jpg)
+
 You read all the productivity articles, you hacked your life, and downloaded three to-do list apps.
 
 "This is the week. The week I knock __blank__ off my list."

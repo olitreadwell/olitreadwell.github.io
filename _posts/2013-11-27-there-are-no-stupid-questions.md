@@ -3,6 +3,8 @@ layout: post
 title: "There are no stupid questions"
 ---
 
+![Asking Question](/public/assets/img/asking-question.jpg)
+
 Think back to a time when you were in school. The teacher lectured about a new unfamiliar topic. “Everyone else must understand this?” you thought.
 
 ### What did you?

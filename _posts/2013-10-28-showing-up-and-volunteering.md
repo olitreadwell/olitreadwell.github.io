@@ -3,6 +3,8 @@ layout: post
 title: "Showing up and volunteering"
 ---
 
+![Volunteering](/public/assets/img/startup-weekend-volunteers.jpg)
+
 Steve Blank is an entrusted figure within the Startup community. He tells four stories within his <a href="http://steveblank.com/2011/05/17/philadelphia-university-commencement-speech-%E2%80%93-may-15th-2011/" target="_blank">Philadelphia University commencement speech</a>. He focuses his second story around “Volunteering and Showing Up.”<br>
 
 In that story, he relates about his time in the Air Force. He volunteered to go to Thailand during the Vietnam War, where he helped at the local on-base repair shop rather than going out drinking with his mates. He fixed broken electronics he knew little about and before the age of 20, was awarded responsibility over 15 electricians in the electronic warfare shop.

@@ -13,19 +13,14 @@ One of my coworkers gave me a quick run through on [GitX](http://gitx.frim.nl/),
 
 ### Visual Commit & Branch History
 
-<figure>
-  <img src="/images/gitx-branch-history.png">
-  <figcaption><a href="http://meowist.github.io/blog/2013/03/26/git-workflow-tips-with-gitx-and-git-stash/">Image Source - Meowist: Git Workflow Tips with GitX and Git Stash</a></figcaption>
-</figure>
+![Visual Commit History](/public/assets/img/visual-git-history.jpg)
 
 With GitX targeting a repo, you see the full git commit and branch history. If you haven't looked at this in this way before, it's pretty interesting . Great way to assist in grasping how a repo's git history  grows over time.
 
 ### Interactive Staging & Commits
 
-<figure>
-  <img src="/images/gitx-interactive-commit-window.png">
-  <figcaption><a href="http://trondlossius.no/articles/31-git-and-svn">Image Source - Trond Lossius</a></figcaption>
-</figure>
+![Interactive Git Commits](/public/assets/img/interactive-commits.jpg)
+
 
 The interactive commit view show the files that changed since your last commit, in the bottom left corner. In the bottom center, is a text box for your commit message.
 
