@@ -3,7 +3,7 @@ layout: post
 title: "If you're going through hell, keep going"
 ---
 
-![Winston Churchill](public/assets/img/winston-churchill.jpg)
+![Winston Churchill](/public/assets/img/winston-churchill.jpg)
 
 While I was writing today I came across this piece of inner monologue.
 
