@@ -12,7 +12,7 @@ or email for this new object that I created.
 
 Two methods make it easy to gain access to these newly created objects:
 
-1. [List N number of records sorted by attribute in descending order](/posts/2015/02/16/last-n-database-objects/)
+1. [List N number of records sorted by attribute in descending order](/2015/02/16/last-n-database-objects/)
 2. Search Database records using a Partial String
 
 ## Search Database records using a Partial String

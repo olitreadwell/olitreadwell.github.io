@@ -13,7 +13,7 @@ or email for this new object that I created.
 Two methods make it easy to gain access to these newly created objects:
 
 1. List N number of records sorted by attribute in descending order
-2. [Search Database records using a Partial String](/posts/2015/02/16/partial-match-a-database-object/)
+2. [Search Database records using a Partial String](/2015/02/16/partial-match-a-database-object/)
 
 ## List N number of records by attribute in descending order
 (reference: [StackOverflow:How to get last N records with activerecord](http://stackoverflow.com/questions/420352/how-to-get-last-n-records-with-activerecord))
