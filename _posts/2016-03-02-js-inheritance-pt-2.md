@@ -12,7 +12,7 @@ Feel free to skip ahead!
 
 <hr>
 
-## Basics of JavaScript Prototype-based Inheritance (Part 2)
+## How does a JavaScript Object inherit from Constructor?
 
 JavaScript is a prototype-based language. By using prototypes we can duplicate behaviors and attributes from existing objects (prototypes). If we would, we can imagine the `prototype` object as a blueprint for your other objects.
 
