@@ -4,9 +4,9 @@ title: "Basics of JavaScript Prototype-based Inheritance (Part 2)"
 ---
 This article is the first in a series of three in which I explain some of what I've learned about JavaScript Inheritance and JavaScript Prototypes.
 
-Feel free to skip ahead!
-
 [Basics of JavaScript Prototype-based Inheritance (Part 1)](/2016/03/02/js-inheritance-pt-1)
+
+[Basics of JavaScript Prototype-based Inheritance (Part 2)](/2016/03/02/js-inheritance-pt-2)
 
 [Basics of JavaScript Prototype-based Inheritance (Part 3)](/2016/03/02/js-inheritance-pt-3)
 
