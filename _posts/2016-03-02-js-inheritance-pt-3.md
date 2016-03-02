@@ -2,6 +2,14 @@
 layout: post
 title: "Basics of JavaScript Prototype-based Inheritance (Part 3)"
 ---
+This article is the first in a series of three in which I explain some of what I've learned about JavaScript Inheritance and JavaScript Prototypes.
+
+Feel free to skip ahead!
+
+[Basics of JavaScript Prototype-based Inheritance (Part 1)]("/js-inheritance-pt-1")
+[Basics of JavaScript Prototype-based Inheritance (Part 2)]("/js-inheritance-pt-2")
+
+<hr>
 
 If you'll remember from my last post, JavaScript is a prototype-based language. By using prototypes we can duplicate behaviors and attributes from existing objects (prototypes). If we would, we can imagine the `prototype` object as a blueprint for your other objects.
 
@@ -57,7 +65,6 @@ Let's specifically look at this line:
     ...
     Canine.call(this, latinName);
     ...
-
 ```
 
 Using `call` sets a value for the `latinName` property for the `Dog` object, in the context of the `Canine` object.
@@ -128,8 +135,8 @@ node => AAAAWWWOOOOOO
 ```
 
 ![Sharpei Puppy Howls at Moon](https://s-media-cache-ak0.pinimg.com/originals/dc/c7/88/dcc788fd81f110df2a349fcd5a8ca2cf.gif)
-### AAAWWWOOOOOOOO!!!!
 
+### AAAWWWOOOOOOOO!!!!
 
 Alright we did it! Wait, what did we do? Let's focus in on the magic.
 
@@ -138,7 +145,6 @@ Alright we did it! Wait, what did we do? Let's focus in on the magic.
     Dog.prototype = Object.create(Canine.prototype);
     Dog.prototype.constructor = Dog;
     ...
-
 ```
 
 
@@ -187,7 +193,7 @@ node => Spot wants to play fetch!
 Any new `Dog` object can now `howl` like any other `Canine` object and play `fetch` like the rest of our `Dog` objects!
 
 #### Play time!
-
+x
 The above code can seem rather confusing at first. You'll feel a lot better about this if you try it yourself.
 
 Why don't you attempt this, but use another friendly creature!

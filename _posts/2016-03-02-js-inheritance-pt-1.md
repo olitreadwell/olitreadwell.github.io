@@ -6,8 +6,10 @@ This article is the first in a series of three in which I explain some of what I
 
 Feel free to skip ahead!
 
-[Basics of JavaScript Prototype-based Inheritance (Part 2)](#)
-[Basics of JavaScript Prototype-based Inheritance (Part 3)](#)
+[Basics of JavaScript Prototype-based Inheritance (Part 2)]("/js-inheritance-pt-2")
+[Basics of JavaScript Prototype-based Inheritance (Part 3)]("/js-inheritance-pt-3")
+
+<hr>
 
 ## How does JavaScript do Inheritance?
 
@@ -48,4 +50,4 @@ JavaScript's prototypal inheritance is considered by some to be even more useful
 
 Hopefully, that cleared up some basic questions about why we want to use languages that implement some form of inheritance.
 
-Go to [Basics of JavaScript Prototype-based Inheritance (Part 2)](#) once you feel comfortable with what we just went over.
+Go to [Basics of JavaScript Prototype-based Inheritance (Part 2)]("/js-inheritance-pt-2") once you feel comfortable with what we just went over.

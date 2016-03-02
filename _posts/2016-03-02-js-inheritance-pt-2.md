@@ -2,6 +2,14 @@
 layout: post
 title: "Basics of JavaScript Prototype-based Inheritance (Part 2)"
 ---
+This article is the first in a series of three in which I explain some of what I've learned about JavaScript Inheritance and JavaScript Prototypes.
+
+Feel free to skip ahead!
+
+[Basics of JavaScript Prototype-based Inheritance (Part 1)]("/js-inheritance-pt-1")
+[Basics of JavaScript Prototype-based Inheritance (Part 3)]("/js-inheritance-pt-3")
+
+<hr>
 
 ## Basics of JavaScript Prototype-based Inheritance (Part 2)
 
@@ -94,4 +102,4 @@ Why don't you attempt this, but use another friendly creature!
 
 ![Petting a Cat](https://upload.wikimedia.org/wikipedia/commons/2/29/Cat.gif)
 
-Go to [Basics of JavaScript Prototype-based Inheritance (Part 3)](#) when you're done.
+Go to [Basics of JavaScript Prototype-based Inheritance (Part 3)]("/js-inheritance-pt-3") when you're done.
