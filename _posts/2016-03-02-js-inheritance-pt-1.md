@@ -7,6 +7,7 @@ This article is the first in a series of three in which I explain some of what I
 Feel free to skip ahead!
 
 [Basics of JavaScript Prototype-based Inheritance (Part 2)]("/2016/03/02/js-inheritance-pt-2")
+
 [Basics of JavaScript Prototype-based Inheritance (Part 3)]("/2016/03/02/js-inheritance-pt-3")
 
 <hr>
