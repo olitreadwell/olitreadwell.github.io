@@ -103,3 +103,11 @@ Why don't you attempt this, but use another friendly creature!
 ![Petting a Cat](https://upload.wikimedia.org/wikipedia/commons/2/29/Cat.gif)
 
 Go to [Basics of JavaScript Prototype-based Inheritance (Part 3)]("/js-inheritance-pt-3") when you're done.
+
+### Reference & Useful Articles
+
+While writing this series of articles I referenced the following resources:
+
+1. [Simple Inheritance with JavaScript](http://www.sitepoint.com/simple-inheritance-javascript/)
+2. [Cory Rylan's JavaScript Prototypal Inheritance](https://coryrylan.com/blog/javascript-prototypal-inheritance)
+3. [Douglas Crockford's Classical Inheritance in JavaScript](http://javascript.crockford.com/inheritance.html)

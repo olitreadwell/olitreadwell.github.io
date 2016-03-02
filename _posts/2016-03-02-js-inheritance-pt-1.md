@@ -51,3 +51,11 @@ JavaScript's prototypal inheritance is considered by some to be even more useful
 Hopefully, that cleared up some basic questions about why we want to use languages that implement some form of inheritance.
 
 Go to [Basics of JavaScript Prototype-based Inheritance (Part 2)]("/js-inheritance-pt-2") once you feel comfortable with what we just went over.
+
+### Reference & Useful Articles
+
+While writing this series of articles I referenced the following resources:
+
+1. [Simple Inheritance with JavaScript](http://www.sitepoint.com/simple-inheritance-javascript/)
+2. [Cory Rylan's JavaScript Prototypal Inheritance](https://coryrylan.com/blog/javascript-prototypal-inheritance)
+3. [Douglas Crockford's Classical Inheritance in JavaScript](http://javascript.crockford.com/inheritance.html)

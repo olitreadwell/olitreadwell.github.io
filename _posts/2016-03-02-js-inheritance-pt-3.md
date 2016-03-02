@@ -198,4 +198,12 @@ The above code can seem rather confusing at first. You'll feel a lot better abou
 
 Why don't you attempt this, but use another friendly creature!
 
-![Smiling Cat](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Turkish_Van_Cat.jpg/700px-Turkish_Van_Cat.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Turkish_Van_Cat.jpg/700px-Turkish_Van_Cat.jpg" alt="Smiling Cat" style="width: 350px;"/>
+
+### Reference & Useful Articles
+
+While writing this series of articles I referenced the following resources:
+
+1. [Simple Inheritance with JavaScript](http://www.sitepoint.com/simple-inheritance-javascript/)
+2. [Cory Rylan's JavaScript Prototypal Inheritance](https://coryrylan.com/blog/javascript-prototypal-inheritance)
+3. [Douglas Crockford's Classical Inheritance in JavaScript](http://javascript.crockford.com/inheritance.html)
