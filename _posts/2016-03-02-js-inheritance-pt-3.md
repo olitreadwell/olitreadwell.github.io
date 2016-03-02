@@ -193,7 +193,7 @@ node => Spot wants to play fetch!
 Any new `Dog` object can now `howl` like any other `Canine` object and play `fetch` like the rest of our `Dog` objects!
 
 #### Play time!
-x
+
 The above code can seem rather confusing at first. You'll feel a lot better about this if you try it yourself.
 
 Why don't you attempt this, but use another friendly creature!
