@@ -24,7 +24,7 @@ Before we dive into that though, let's try to answer...
 
 Here are 2 Specific Reasons why Inheritance is Important.
 
-1) Ensuring that our programming Language chooses the right *type* for *casting*.
+#### 1) Ensuring that our programming Language chooses the right *type* for *casting*.
 
   In strongly typed languages--we'll use C for example--a [type](https://en.wikipedia.org/wiki/C_data_types) refers to variable indicators that determine the traits of the data that may be stored or interacted with.
 
@@ -36,7 +36,7 @@ Here are 2 Specific Reasons why Inheritance is Important.
 
   In JavaScript, which is a loosely-typed language, references to objects or more simply put variables do not use type casting.
 
-2) Making it easy to reuse code.
+#### 2) Making it easy to reuse code.
 
   We often create more than one object that uses the same or similar methods. In Ruby, Classes make it easy to create new instances from one set of instructions.
 
