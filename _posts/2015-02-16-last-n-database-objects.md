@@ -21,17 +21,17 @@ Two methods make it easy to gain access to these newly created objects:
 This is quite the handy trick. If the object you're looking for was recently
 created, why not just list the last 10, 30, 50,.. and so on.
 
-{% highlight ruby %}
+``` ruby
 Record.find(:all, :order => "id desc", :limit => 20).reverse
-{% endhighlight %}
+```
 
 Of course, after you access the records you can pretty print or list only the
 select attributes to make finding the right ActiveRecord Object easy as.
 
-{% highlight ruby %}
+``` ruby
 pp Record.find(:all, :order => "id desc", :limit => 20)
          .reverse.map{|record| [record.id, record.created_at]}
-{% endhighlight %}
+```
 
 This method is more performant than the second option. You limit the number of
 results you search through.

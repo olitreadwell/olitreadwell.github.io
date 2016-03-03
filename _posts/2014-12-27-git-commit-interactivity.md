@@ -64,7 +64,7 @@ The `-p` stands for patch.  Git commit patch is just one tool. You can find othe
 
 `git commit -p` is my go-to tool for interactive, cohesive commits within my terminal.
 
-{% highlight bash %}
+``` bash
 diff --git a/lib/simplegit.rb b/lib/simplegit.rb
 index dd5ecc4..57399e0 100644
 --- a/lib/simplegit.rb
@@ -79,11 +79,11 @@ index dd5ecc4..57399e0 100644
 
    def blame(path)
 Stage this hunk [y,n,a,d,/,j,J,g,e,?]?
-{% endhighlight %}
+```
 
 Using this option, you see what lines have changed since your prior commit. Type `?` to see what you can do next. You choose from the following actions:
 
-{% highlight bash %}
+``` bash
 Stage this hunk [y,n,a,d,/,j,J,g,e,?]? ?
 y - stage this hunk
 n - do not stage this hunk
@@ -98,7 +98,7 @@ K - leave this hunk undecided, see previous hunk
 s - split the current hunk into smaller hunks
 e - manually edit the current hunk
 ? - print help
-{% endhighlight %}
+```
 
 Using `yes` or `no` to stage chunks of your code,  you can make bite-sized, understandable commit messages. Staging only the desired parts of code as you go.
 

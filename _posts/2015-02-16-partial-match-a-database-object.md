@@ -25,15 +25,15 @@ The other option provides a search for ActiveRecord Objects.
 all the records in your database. That takes a lot of power and could end up causing
 significant problems for your database.
 
-{% highlight ruby %}
+``` ruby
 Account.where("email like ?", "%olitreadwell%")
-{% endhighlight %}
+```
 
 <strong>OR</strong>
 
-{% highlight ruby %}
+``` ruby
 User.where("username like ?", "%olitreadwell%")
-{% endhighlight %}
+```
 
 If I'm searching for a test User or test Account Object the above queries will
 return records where "olitreadwell" appears throughout the desired attribute

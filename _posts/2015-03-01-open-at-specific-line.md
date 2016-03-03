@@ -10,12 +10,12 @@ I'll write about the challenges of doing so later.
 As I improve upon my code-spelunking skills, I received code
 references like the one below for errors I was coming upon.
 
-{% highlight bash %}
+``` bash
 $ grep -rn "color" .
 ./assets/less/site.less:8:  background-color: lighten(@basecolor, 65%);
 ./assets/less/site.less:9:  color: @basecolor;
 ./assets/less/typography.less:5:  color: @text-color;
-{% endhighlight %}
+```
 
 After opening up the file in Emacs for the hundredth time, I found
  a way to load the file at the specified code line.
@@ -28,18 +28,18 @@ Using the code example, loading the appropriate file and line of code is as
  easy as:
 
 
-{% highlight bash %}
+``` bash
 $ grep -rn "color" .
 ./assets/less/site.less:8:  background-color: lighten(@basecolor, 65%);
 ./assets/less/site.less:9:  color: @basecolor;
 $
 $ emacs +8 ./assets/less/site.less
-{% endhighlight %}
+```
 
 This will work the same way if you're a Vim user too.
-{% highlight bash %}
+``` bash
 $ vi +8 ./assets/less/site.less
-{% endhighlight %}
+```
 
 ----------------------------------------------------------
 
