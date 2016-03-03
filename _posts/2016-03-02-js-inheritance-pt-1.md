@@ -11,6 +11,8 @@ This article is the first in a series of three in which I explain some of what I
 
 [Basics of JavaScript Prototype-based Inheritance (Part 3)](/2016/03/02/js-inheritance-pt-3)
 
+You can find the code for this series [here](https://gist.github.com/olitreadwell/69172d0591f3daef7fcc).
+
 <hr>
 
 ## How does JavaScript do Inheritance?
