@@ -14,4 +14,4 @@ You can find the code for this series [here](https://gist.github.com/olitreadwel
 
 <hr>
 
-<iframe src="https://docs.google.com/presentation/d/1Vz46v_6pidRRMLRJueyO83fzG2MDa7t0ve_c6u8NlKU/embed?start=false&loop=false&delayms=15000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
+{% include 2016MAR03-g-docs-js-inheritance-presentation.html %}
