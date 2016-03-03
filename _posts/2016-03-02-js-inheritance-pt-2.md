@@ -37,12 +37,13 @@ Using the `new` keyword we'll create a new instance of this "class"
 var dog = new Canine("Canis familiaris");
 
 node  > dog
-node => { genus: 'Canis' }
+node => { genus: 'Canis', latinName: 'Canis familiaris' }
+
 
 var greyWolf = new Canine("Canis lupus");
 
 node  > greyWolf
-node => { genus: 'Canis' }
+node => { genus: 'Canis', latinName: 'Canis lupus' }
 ```
 
 If we want to make it so that all instances of our created "class" can behave in ways that our original "class" can, we'll use the `prototype` object on our original class.
