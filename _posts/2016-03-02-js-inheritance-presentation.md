@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "prototype and Inheritance in JavaScript (presentation)"
+title: "Prototype and Inheritance in JavaScript (presentation)"
 ---
 This presentation is an additional resource based on the lessons learned in [Part 2](/2016/03/02/js-inheritance-pt-2) of my series of three about JavaScript Inheritance and JavaScript Prototypes.
 
