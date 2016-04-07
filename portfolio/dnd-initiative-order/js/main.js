@@ -25,4 +25,9 @@ $( "form" ).submit(function( event ) {
     $("#sortable").append(listElement);
     event.preventDefault();
 });
+
+
+$(function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
 });
