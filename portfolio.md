@@ -23,3 +23,8 @@ You can view the full *Increment Counter with AJAX* repo I created [here](https:
 I built this simple movie search app with **Ruby**, the **Sinatra** framework, **JavaScript**, and **jQuery**. I'm using the **HTTParty** gem to hit the Open Movie Database API. Additionally, using the **JSON** gem I'm able to parse the returned information from my HTTP Get request and display it through additional **jQuery** magic. I use an **AJAX** request to asynchronously retrieve, parse, and display the search results from the Open Movie Database API. The application is hosted with **Heroku**.
 
 You can view the full *Movie Search with AJAX and jQuery* repo I created [here](https://github.com/olitreadwell/movie-search-app/).
+
+## [Dungeons and Dragons Initiative Order (beta)](http://olitreadwel.com/portfolio/dnd-initiative-order)
+![Dungeons and Dragons Initiative Order (beta)](/public/assets/img/dnd-initiative-order-beta.png)
+
+This is something I quickly built yesterday. It's sorta silly. It allows you to add a D&D Character Name and D&D Initiative Roll and then have it appear in a sortable list.It's also mobile friendly. There's some key features missing, but it was fun. The code is written entirely in **HTML**, **CSS**, **JavaScript** and **jQuery**. It also makes use of **HTML Boilerplate**, **Bootstrap**, and **jQuery-UI**.
