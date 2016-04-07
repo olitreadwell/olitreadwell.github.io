@@ -27,4 +27,4 @@ You can view the full *Movie Search with AJAX and jQuery* repo I created [here](
 ## [Dungeons and Dragons Initiative Order (beta)](http://olitreadwel.com/portfolio/dnd-initiative-order)
 ![Dungeons and Dragons Initiative Order (beta)](/public/assets/img/dnd-initiative-order-beta.png)
 
-This is something I quickly built yesterday. It's sorta silly. It allows you to add a D&D Character Name and D&D Initiative Roll and then have it appear in a sortable list.It's also mobile friendly. There's some key features missing, but it was fun. The code is written entirely in **HTML**, **CSS**, **JavaScript** and **jQuery**. It also makes use of **HTML Boilerplate**, **Bootstrap**, and **jQuery-UI**.
+This is something I quickly built yesterday. It's sorta silly. It allows you to add a D&D Character Name and D&D Initiative Roll and then have it appear in a sortable list. It's also mobile friendly. There's some key features missing, but it was fun. The code is written entirely in **HTML**, **CSS**, **JavaScript** and **jQuery**. It also makes use of **HTML Boilerplate**, **Bootstrap**, and **jQuery-UI**.
