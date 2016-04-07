@@ -26,16 +26,18 @@
   <body>
 
     <div class="container-fluid">
-      <form class="form-inline" action="">
-        <div class="form-group col-xs-12">
-          <label class="text-center" for="playerCharacterName">Player Character Name</label>
-          <input class="form-control input-lg" id="playerCharacterName" type="text" placeholder="Grog"/>
+      <form action="">
+        <div class="row">
+          <div class="form-group col-xs-12">
+            <label for="playerCharacterName">Character Name</label>
+            <input class="form-control input-lg" id="playerCharacterName" type="text" placeholder="Grog"/>
+          </div>
+          <div class="form-group col-xs-6 col-xs-offset-3">
+            <label for="initiativeRoll">Character Initiatve</label>
+            <input class="form-control input-lg" id="initiativeRoll" type="number" min="-20" max="30" placeholder="1 - 20"/>
+          </div>
+          <button class="btn btn-default btn-lg btn-block" type="submit">Submit</button>
         </div>
-        <div class="form-group col-xs-6 col-xs-offset-3">
-          <label class="text-center" for="initiativeRoll">Player Character Initiatve Roll</label>
-          <input class="form-control input-lg" id="initiativeRoll" type="number" min="-20" max="30" placeholder="1 - 20"/>
-        </div>
-        <button class="btn btn-default btn-lg btn-block" type="submit">Submit</button>
       </form>
     </div>
 
