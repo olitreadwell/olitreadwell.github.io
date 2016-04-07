@@ -3,4 +3,26 @@ $( document ).ready( function() {
     // console.log('jquery is loading');
 });
 
+// Add to JSON Object on Form Submit
+$( "form" ).submit(function( event ) {
+
+    //did the form submit?
+    // console.log("form submitted")
+
+    //set variables for values
+    var characterWithInitiative = $( this ).serializeArray();
+    var charName = characterWithInitiative[0].value;
+    var initiativeRoll = characterWithInitiative[1].value;
+
+    // console.log(charName);
+    // console.log(initiativeRoll);
+
+    var listElement = "<li class='ui-state-default list-group-item'>"+
+            "<span class='ui-icon ui-icon-arrowthick-2-n-s'></span>"+
+            charName+"\t"+
+            initiativeRoll+"</li>";
+
+    $("#sortable").append(listElement);
+    event.preventDefault();
+});
 });
