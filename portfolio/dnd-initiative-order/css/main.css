@@ -3,8 +3,7 @@
    ========================================================================== */
 
 
-
-button {
+.btn {
   max-width: 50%;
   margin: 0 auto;
 }
@@ -24,7 +23,7 @@ button {
     margin: 0 auto;
   }
 
-  button {
+  .btn {
     max-width: 50%;
     margin: 0 auto;
   }
