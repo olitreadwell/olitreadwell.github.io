@@ -31,6 +31,4 @@ It helps foster a human connection that doesn't always come from leaving with a 
 
 If this is you though, scream it from on top of a mountain. Maybe take the time to ask, "Who wants to hack on Padrino and test suites for 4 hours at ___?"
 
-I saw Patrick McKenzie mention this awhile back, though I can't find it now. If you're going to a conference think about getting a suite. This gives you the luxury to invite people to have a conversation or to pair on an idea.
-
 So all I'm saying is, rethink avoiding those soft talks, because they may create conversations & friends you didn't know you could.
