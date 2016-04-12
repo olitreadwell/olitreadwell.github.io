@@ -16,6 +16,11 @@ $( "form" ).submit(function( event ) {
 
     // console.log(charName);
     // console.log(initiativeRoll);
+    if(charName == null || charName == '' ||
+       initiativeRoll == null || initiativeRoll == '') {
+        alert("You need to fill in all fields")
+        return false;
+    };
 
     var listElement = "<li class='ui-state-default list-group-item'>"+
             "<span class='ui-icon ui-icon-arrowthick-2-n-s'></span>"+
