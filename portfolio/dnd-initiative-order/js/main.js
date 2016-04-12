@@ -18,7 +18,7 @@ $( "form" ).submit(function( event ) {
     // console.log(initiativeRoll);
     if(charName == null || charName == '' ||
        initiativeRoll == null || initiativeRoll == '') {
-        alert("You need to fill in all fields")
+        alert("You need to fill in all fields!");
         return false;
     };
 
