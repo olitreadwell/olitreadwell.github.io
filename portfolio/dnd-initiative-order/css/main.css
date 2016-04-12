@@ -11,6 +11,16 @@
   margin: 0 auto;
 }
 
+#charName,
+#initiative {
+  margin-right: 5%;
+}
+
+button.delete {
+  float: right;
+  margin-top: -5px;
+  border-radius: 5px;
+}
 
 /*------------------------------------------
   Responsive Grid Media Queries - 1280, 1024, 768, 480

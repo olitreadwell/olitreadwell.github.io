@@ -24,8 +24,9 @@ $( "form" ).submit(function( event ) {
 
     var listElement = "<li class='ui-state-default list-group-item'>"+
             "<span class='ui-icon ui-icon-arrowthick-2-n-s'></span>"+
-            charName+"\t"+
-            initiativeRoll+"</li>";
+            "<span id='charName'>"+charName+"</span>"+
+            "<span id='initiative'>"+initiativeRoll+"</span>"+
+            "<button class='delete btn-danger'> X </button></li>";
 
     $("#sortable").append(listElement);
     event.preventDefault();
@@ -35,4 +36,8 @@ $( "form" ).submit(function( event ) {
 $(function() {
     $( "#sortable" ).sortable();
     $( "#sortable" ).disableSelection();
+});
+
+$("#sortable").on('click', '.delete', function(even){
+    $( this ).parent().slideUp();
 });
