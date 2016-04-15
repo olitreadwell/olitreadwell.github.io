@@ -2,9 +2,6 @@
 layout: page
 title: About
 ---
-Oli really likes cats!
-
-
 I've spent 5 years working within the Technology industry, focusing on Startups and Venture Fundraising.
 
 As of late, I supported and contributed features to two **Ruby on Rails** applications. My role was a midpoint between the Engineering and Customer Success. I was able to contribute to both our internal tools and the customer applications between support tasks.
