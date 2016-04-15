@@ -2,6 +2,8 @@
 layout: page
 title: About
 ---
+Oli really likes cats!
+
 
 I've spent 5 years working within the Technology industry, focusing on Startups and Venture Fundraising.
 
