@@ -15,12 +15,9 @@ It feels like the time to enter the wild world of non-platform based coding envi
 ![Cat in Pink Wig Typing](http://cdn2.thegloss.com/wp-content/uploads/2014/10/Cat-Wig-GIF.gif)
 
 >**This is great!**  
-
->{Sublime Text||Atom||Brackets} is awesome.
-
->Look at this slick new theme I've got; all these dope packages I've installed.
-
->I'm templating with Emmett. Linting like crazy
+{Sublime Text||Atom||Brackets} is awesome. <br>
+Look at this slick new theme I've got, all these dope packages I've installed.
+I'm templating with Emmett. Linting like crazy.
 
 You've got this covered. You feel at home in your text editor.
 
@@ -84,8 +81,8 @@ Do so for the following reasons:
 * Knowing you've conquered one of those "good to have" Dev experiences and moving forward however you please
 
 **Go give one of them a try today.**
-<br>
-___
+
+<hr>
 
 ### Addendum: The Vim & Emacs Christmas Special - Tips & Tricks!
 1. Vim and Emacs have cool online and in-text editor tutorials.
