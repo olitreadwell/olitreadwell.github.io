@@ -12,7 +12,7 @@ You're a newbie programmer. We all were once! You're teaching yourself using one
 
 It feels like the time to enter the wild world of non-platform based coding environments. Starting a long loving relationship between your favorite Text Editor and You. You tackle a few tutorials.
 
-![Cat in Pink Wig Typing](http://cdn2.thegloss.com/wp-content/uploads/2014/10/Cat-Wig-GIF.gif)
+![Cat in Pink Wig Typing](http://cdn2.thegloss.com/wp-content/uploads/2014/10/Cat-Wig-GIF.gif "It me!")
 
 >**This is great!**  
 {Sublime Text||Atom||Brackets} is awesome. <br>
@@ -29,7 +29,7 @@ I'm not going to get into the battle of *Vim* versus *Emacs*. Let someone else f
 
 **So just choose one.** How? Probably the one a peer is using and will happily teach you the way in.
 
-![Rey is the Sh*t](https://fsmedia.imgix.net/32/53/89/e8/4399/43a2/8fda/387a67c6bc68/rey-finds-luke-skywalker.gif?dpr=1&auto=format&q=75)
+![Rey is the Sh*t](https://fsmedia.imgix.net/32/53/89/e8/4399/43a2/8fda/387a67c6bc68/rey-finds-luke-skywalker.gif?dpr=1&auto=format&q=75 "Rey is the Sh*t")
 
 It'll be a humbling start. You won't know how to navigate or select things. The thing is.... There's not really a cursor, no mouse. You're stuck on the keyboard.
 
@@ -37,11 +37,11 @@ But don't fret you're going to level up.
 
 You'll go from not knowing how to quit the text editor
 
-![You quit Vim with :q, You quit Emacs with the not-included foot pedal and midi-keyboard](http://static1.squarespace.com/static/5711eb7d01dbae161f98b4d6/t/5718597b1d07c00488810178/1461213584342/)
+![You quit Vim with :q, You quit Emacs with the not-included foot pedal and midi-keyboard](http://static1.squarespace.com/static/5711eb7d01dbae161f98b4d6/t/5718597b1d07c00488810178/1461213584342/ "You quit Vim with :q, You quit Emacs with the not-included foot pedal and midi-keyboard")
 
 To being a keyboard wiz
 
-![And this kids is what your brain is like on Tmux](http://i.imgur.com/CVpc7nD.gif)
+![And this kids is what your brain is like on Tmux](http://i.imgur.com/CVpc7nD.gif "And this kids is what your brain is like on Tmux")
 
 ### The Force Awakens
 
@@ -51,7 +51,7 @@ You probably didn't know how badly that mouse & trackpad were holding you back. 
 
 There's a pretty high learning curve. This probably isn't an accurate description, but it's worth considering.
 
-![Emacs: Upwards, not forward and always twirling, twirling, twirling towards freedom!](https://pbs.twimg.com/media/BcWMNBtCAAAgvZn.jpg)
+![Emacs: Upwards, not forward and always twirling, twirling, twirling towards freedom!](https://pbs.twimg.com/media/BcWMNBtCAAAgvZn.jpg "Emacs: Upwards, not forward and always twirling, twirling, twirling towards freedom!")
 
 As you progress in learning your chosen editor you'll start to notice where the navigation and keyboard skills you've picked up can be applied elsewhere. It's fun to discover the numerous places where you can navigate with the `ctrl+N`,`ctrl+P`,`ctrl+F`, `ctrl+B` movement keys present in Emacs or the `h`,`j`,`k`,`l` movement keys in Vim.
 
@@ -66,7 +66,7 @@ Then when you feel you're comfortable with Vim or Emacs, the choice is up to you
 ### Why you should learn Vim or Emacs now - Machete Order
 
 To recap, by diving into using Vim or Emacs early on, you'll overcome that learning curve faster. No fear.
-![I've made a terrible mistake](http://i.imgur.com/RXBPDx7.gif?noredirect)
+![I've made a terrible mistake](http://i.imgur.com/RXBPDx7.gif?noredirect "I've made a terrible mistake")
 
 Do so for the following reasons:
 
