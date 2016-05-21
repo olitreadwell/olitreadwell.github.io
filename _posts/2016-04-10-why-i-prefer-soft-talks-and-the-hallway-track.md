@@ -27,7 +27,7 @@ Additionally, I feel as if I leave "soft" talks with questions. Open questions, 
 
 Leading to, "Who are you eating dinner with?" or "Thank you, can I buy you a ☕🍻🍩?"
 
-It helps foster a human connection that doesn't always come from leaving with a mind full of code. If I leave and spend 6 hours building something in Padrino, perhaps I could have spent those hours building something with someone
+It helps foster a human connection that doesn't always come from leaving with a mind full of code. Let's say I leave and spend 6 hours building something in Padrino. Could I have spent those hours building something with someone?
 
 If this is you though, scream it from on top of a mountain. Maybe take the time to ask, "Who wants to hack on Padrino and test suites for 4 hours at ___?"
 
