@@ -17,7 +17,7 @@ Talks like Avdi Grimm's at Lone Star Ruby, Sandi Metz's at Keep Ruby Weird, and 
 
 I still think about those talks. I've had further discussions about those talks. I refer to them in conversation with other people, devs & non-devs alike. Now this doesn't mean that I don't think you should sit in "hard" talks. If you do & they bolster you. You do you.
 
-I'm talking about some level of ripple effect that occurs from a "soft" talk. It may not speed up your test suite. Yet, it might change how you right features, or how you test. Or more immediately, again, make you start conversations about the topic.
+I'm talking about some level of ripple effect that occurs from a "soft" talk. It may not speed up your test suite. Yet, it might change how you write features, or how you test. Or more immediately, again, make you start conversations about the topic.
 
 Additionally, I feel as if I leave "soft" talks with questions. Open questions, which propel me to chat with the speaker.
 
