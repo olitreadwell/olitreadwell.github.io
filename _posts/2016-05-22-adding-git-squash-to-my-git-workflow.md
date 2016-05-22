@@ -11,7 +11,7 @@ This post is part of a group I've written about improving your version control s
 
 * [Strategies I use to level-up my git](http://olitreadwell.com/2016/05/22/strategies-to-level-up-my-git)
 
-* [How to write a great pull request](http://olitreadwell.com/2016/05/22/how-write-great-pull-requests)
+* [How to write a great pull request](http://olitreadwell.com/2016/05/22/how-to-write-great-pull-requests)
 
 <hr>
 
@@ -35,7 +35,7 @@ Now after my full git log of commits I can go back and edit.
 
 `Git squash` allows you to turn the three commits into one for that test you wrote. Or to turn the passing test and the correctly method into one single commit.
 
-Allows you to totally remove an unused piece of git history, like the comment you added asking a question, which was then answered within the code review process on your [great pull request](/2016/05/22/how-to-write-a-great-pull-request).
+Allows you to totally remove an unused piece of git history, like the comment you added asking a question, which was then answered within the code review process on your [great pull request](/2016/05/22/how-to-write-great-pull-requests).
 
 Allows you to amend the first and second and third of a 30 commit git branch not just the last commit.
 
