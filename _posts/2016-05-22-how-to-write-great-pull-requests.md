@@ -11,7 +11,7 @@ This post is part of a group I've written about improving your version control s
 
 * [Strategies I use to level-up my git](http://olitreadwell.com/2016/05/22/strategies-to-level-up-my-git)
 
-* [Adding `git squash` to my git workflow**](http://olitreadwell.com/2016/05/22/adding-git-squash-to-my-git-workflow)
+* [Adding `git squash` to my git workflow](http://olitreadwell.com/2016/05/22/adding-git-squash-to-my-git-workflow)
 
 <hr>
 
