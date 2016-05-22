@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git Commit Interactively"
+title: "Git commit interactively"
 ---
 
 This post is part of a group I've written about improving your version control skills.
