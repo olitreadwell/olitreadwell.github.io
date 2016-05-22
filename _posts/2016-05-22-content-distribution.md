@@ -30,10 +30,14 @@ You could initiate this through Periscope or Snapchat (ala [Mark Suster](https:/
 
 Mark Suster specifically is re-envisioning portions of his old content into easily digestable snapchat stories. Begging the question, should I go back and turn old content into new mediums, or distribute it in new places?
 
-Are we all still distributing content as a means to become some "domain expert" or just to "show our work", again "it depends"
+Are we all still distributing content as a means to become some "domain expert" or just to "show our work", again "it depends".
 
 On Twitter versus LinkedIn versus Medium versus my Personal Site, I want you to:
+
 * RT me or respond to [my stream](https://twitter.com/olitreadwell)
+
 * open me up to [new opportunities](https://linkedin.com/olitreadwell)
+
 * interact with [my post](https://medium.com/@olitreadwell)
+
 * subscribe to my [newsletter](https://tinyletter.com/olitreadwell)
