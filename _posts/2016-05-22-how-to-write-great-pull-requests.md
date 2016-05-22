@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to write a great Pull Request"
+title: "How to write a great pull request"
 ---
 
 This post was originally a TweetStorm. [Read that tweetstorm](https://twitter.com/olitreadwell/status/731291849873195009?ref_src=twsrc%5Etfw).
