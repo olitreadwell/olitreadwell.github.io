@@ -43,9 +43,9 @@ If you're a junior developer, picking up great VCS habits, demonstrates a certai
 
 ## Where I am today
 
-My current git workflow will involve branching for my feature branch including a long descriptive branch name. This isn't `feature-branch`, its `jira-ticket-123-this-is-what-the-feature-does-simply-branch`
+My current git workflow will involve branching for my feature branch including a long descriptive branch name. This isn't `feature-branch`, its `jira-ticket-123-this-is-what-the-feature-does-simply-branch`.
 
-Start working. Then every 20 minutes, a max of an hour, I'll commit. Usually with `git commit patch` or Gitx. My commits hope to explain **_Why_** I made these changes and be less than 80 chars if possible
+Start working. Then every 20 minutes, a max of an hour, I'll commit. Usually with `git commit patch` or Gitx. My commits hope to explain **_why_** I made these changes and be less than 80 chars if possible
 
 If I want to add more info, add a new line. With how you did something, though this should likely be evident from your code. Alternatively, you could split that commit into multiple commits.
 
