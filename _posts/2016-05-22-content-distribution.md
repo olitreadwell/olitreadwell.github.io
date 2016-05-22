@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Content distribution"
+title: "Thoughts on content distribution"
 ---
 ![](/public/assets/img/social-content.png)
 
