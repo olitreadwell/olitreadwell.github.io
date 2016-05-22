@@ -31,7 +31,7 @@ With `git squash` in your VCS toolbelt it doesn't matter that I wrote 1 commit e
 
 Now after my full git log of commits I can go back and edit.
 
-*Git Commit drink, git squash sober*
+*`git commit` drunk, `git squash` sober*
 
 `Git squash` allows you to turn the three commits into one for that test you wrote. Or to turn the passing test and the correctly method into one single commit.
 
