@@ -29,7 +29,7 @@ I'm not going to get into the battle of *Vim* versus *Emacs*. Let someone else f
 
 **So just choose one.** How? Probably the one a peer is using and will happily teach you the way in.
 
-![Rey is the Sh\*t](https://fsmedia.imgix.net/32/53/89/e8/4399/43a2/8fda/387a67c6bc68/rey-finds-luke-skywalker.gif "Rey is the Sh*t")
+![Rey is the Sh\*t](https://fsmedia.imgix.net/32/53/89/e8/4399/43a2/8fda/387a67c6bc68/rey-finds-luke-skywalker.gif?dpr=1&auto=format&q=75 "Rey is the Sh*t")
 
 It'll be a humbling start. You won't know how to navigate or select things. The thing is.... There's not really a cursor, no mouse. You're stuck on the keyboard.
 
