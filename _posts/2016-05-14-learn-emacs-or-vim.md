@@ -12,7 +12,7 @@ You're a newbie programmer. We all were once! You're teaching yourself using one
 
 It feels like the time to enter the wild world of non-platform based coding environments. Starting a long loving relationship between your favorite Text Editor and You. You tackle a few tutorials.
 
-![Cat in Pink Wig Typing](http://cdn2.thegloss.com/wp-content/uploads/2014/10/Cat-Wig-GIF.gif "It me!")
+![Cat in Pink Wig Typing](https://media.giphy.com/media/fHekGKVKEpRgk/giphy.gif "It me!")
 
 >**This is great!**  
 {Sublime Text||Atom||Brackets} is awesome. <br>
