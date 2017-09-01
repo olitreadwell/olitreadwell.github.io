@@ -5,11 +5,11 @@ title: "Git commit interactively"
 
 This post is part of a group I've written about improving your version control skills.
 
-* [Strategies I use to level-up my git](2016/05/22/strategies-to-level-up-my-git)
+* [Strategies I use to level-up my git](/2016/05/22/strategies-to-level-up-my-git)
 
-* [Adding `git squash` to my git workflow](2016/05/22/adding-git-squash-to-my-git-workflow)
+* [Adding `git squash` to my git workflow](/2016/05/22/adding-git-squash-to-my-git-workflow)
 
-* [How to write a great pull request](2016/05/22/how-to-write-great-pull-requests)
+* [How to write a great pull request](/2016/05/22/how-to-write-great-pull-requests)
 
 <hr>
 
