@@ -7,11 +7,11 @@ This post was originally a TweetStorm. [Read that tweetstorm](https://twitter.co
 
 This post is part of a group I've written about improving your version control skills.
 
-* [Git commiting interactively](http://olitreadwell.com/2014/12/27/git-commit-interactivity)
+* [Git commiting interactively](/2014/12/27/git-commit-interactivity)
 
-* [Adding `git squash` to my git workflow](http://olitreadwell.com/2016/05/22/adding-git-squash-to-my-git-workflow)
+* [Adding `git squash` to my git workflow](/2016/05/22/adding-git-squash-to-my-git-workflow)
 
-* [How to write a great pull request](http://olitreadwell.com/2016/05/22/how-to-write-great-pull-requests)
+* [How to write a great pull request](/2016/05/22/how-to-write-great-pull-requests)
 
 <hr>
 
@@ -51,7 +51,7 @@ If I want to add more info, add a new line. With how you did something, though t
 
 Push your branch up, this gives it exposure and also helps people who might give it a look-see or to at least show your work. Some teams are comfortable with you opening a partial PR or a 30% PR for feedback or to provide guifance. Of course ask your team.
 
-When you finish your work open a pull request. In my pull requests I like to include a lot context. Read more about [how to write a great pull request](http://olitreadwell.com/2016/05/22/how-to-write-great-pull-requests).
+When you finish your work open a pull request. In my pull requests I like to include a lot context. Read more about [how to write a great pull request](./2016/05/22/how-to-write-great-pull-requests).
 
 All together these allow me to feel confident in my version control capabilities and work better as part of a agile develoment team.
 

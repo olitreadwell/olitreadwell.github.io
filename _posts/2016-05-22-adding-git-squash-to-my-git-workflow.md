@@ -7,11 +7,11 @@ This post was originally a TweetStorm. [Read that tweetstorm](https://twitter.co
 
 This post is part of a group I've written about improving your version control skills.
 
-* [Git commiting interactively](http://olitreadwell.com/2014/12/27/git-commit-interactivity)
+* [Git commiting interactively](/2014/12/27/git-commit-interactivity)
 
-* [Strategies I use to level-up my git](http://olitreadwell.com/2016/05/22/strategies-to-level-up-my-git)
+* [Strategies I use to level-up my git](/2016/05/22/strategies-to-level-up-my-git)
 
-* [How to write a great pull request](http://olitreadwell.com/2016/05/22/how-to-write-great-pull-requests)
+* [How to write a great pull request](/2016/05/22/how-to-write-great-pull-requests)
 
 <hr>
 
