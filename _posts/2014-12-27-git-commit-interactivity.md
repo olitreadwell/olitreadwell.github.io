@@ -3,8 +3,6 @@ layout: post
 title: "Git commit interactively"
 ---
 
-This post is part of a group I've written about improving your version control skills.
-
 `git commit -p` is a great tool to help you create a more cohesive, readable git history.  Use of a line-/chunk-specific commit option will assist in any necessary git transformations. I recently learned about GitX and `git commit -p` as two interactive options.
 
 At Union Metrics, I welcomed the feedback  about the visual Git tools available. GitX, GitX-Dev (rowanj), SourceTree, and GitHub Mac were options that I found.
