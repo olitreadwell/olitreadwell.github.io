@@ -48,7 +48,8 @@ Or the always memorable misquote from Winston Churchill.
 
 <strong>If You’re Going Through Hell, Keep Going</strong> - <em>(probably not) Winston Churchill.</em>
 
-----------------------------------------------------------
+---
+
 If you have any comments, feel free to get in touch via twitter.
 Follow or tweet me at [@olitreadwell](http://twitter.com/olitreadwell)
 Or leave me some feedback via this [google form](http://goo.gl/forms/krgUCwT6i7)

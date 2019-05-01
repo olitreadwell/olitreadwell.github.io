@@ -3,9 +3,9 @@ layout: post
 title: "Git commit interactively"
 ---
 
-`git commit -p` is a great tool to help you create a more cohesive, readable git history.  Use of a line-/chunk-specific commit option will assist in any necessary git transformations. I recently learned about GitX and `git commit -p` as two interactive options.
+`git commit -p` is a great tool to help you create a more cohesive, readable git history. Use of a line-/chunk-specific commit option will assist in any necessary git transformations. I recently learned about GitX and `git commit -p` as two interactive options.
 
-At Union Metrics, I welcomed the feedback  about the visual Git tools available. GitX, GitX-Dev (rowanj), SourceTree, and GitHub Mac were options that I found.
+At Union Metrics, I welcomed the feedback about the visual Git tools available. GitX, GitX-Dev (rowanj), SourceTree, and GitHub Mac were options that I found.
 
 ## GitX
 
@@ -15,27 +15,25 @@ One of my coworkers gave me a quick run through on [GitX](http://gitx.frim.nl/),
 
 ![Visual Commit History](/public/assets/img/visual-git-history.jpg)
 
-With GitX targeting a repo, you see the full git commit and branch history. If you haven't looked at this in this way before, it's pretty interesting . Great way to assist in grasping how a repo's git history  grows over time.
+With GitX targeting a repo, you see the full git commit and branch history. If you haven't looked at this in this way before, it's pretty interesting . Great way to assist in grasping how a repo's git history grows over time.
 
 ### Interactive Staging & Commits
 
 ![Interactive Git Commits](/public/assets/img/interactive-commits.jpg)
 
-
 The interactive commit view show the files that changed since your last commit, in the bottom left corner. In the bottom center, is a text box for your commit message.
 
 As you select a file, you will see the code that changed in the top part of the window. Here you can stage the entire file, specific chunks, and single lines to your next commit. The file where you staged changes to commit then appears in the bottom right corner. You can decide to unstage files, chunks and lines in much the same way.
 
-When you're ready to commit, double check you're on the right branch.  The branch name is helpfully listed on the title bar of the application window. Complete your commit message and click the easy to find commit button.
+When you're ready to commit, double check you're on the right branch. The branch name is helpfully listed on the title bar of the application window. Complete your commit message and click the easy to find commit button.
 
-
-----------------------------------------------------------
+---
 
 Asking people's preferences for Git tools, many people suggested that I use the interactive commit option already baked within Git itself.
 
 ## `git commit -p`
 
-The `-p` stands for patch.  Git commit patch is just one tool. You can find other similar features to what's available in GitX within your own `bash` prompt.
+The `-p` stands for patch. Git commit patch is just one tool. You can find other similar features to what's available in GitX within your own `bash` prompt.
 
 ### Visual Commit & Branch History
 
@@ -52,7 +50,7 @@ The `-p` stands for patch.  Git commit patch is just one tool. You can find othe
 
 `--pretty[=<format>]`: Prints the commit logs in a given format. It allows for multiple format types, specified in the docs.
 
-`--abbrev-commit`:  Cuts the number of SHA digits shown. `--abbrev=<n>` allows you to choose the number of shown SHA digits.
+`--abbrev-commit`: Cuts the number of SHA digits shown. `--abbrev=<n>` allows you to choose the number of shown SHA digits.
 
 <i>Update</i>
 
@@ -64,7 +62,7 @@ The `-p` stands for patch.  Git commit patch is just one tool. You can find othe
 
 `git commit -p` is my go-to tool for interactive, cohesive commits within my terminal.
 
-``` bash
+```bash
 diff --git a/lib/simplegit.rb b/lib/simplegit.rb
 index dd5ecc4..57399e0 100644
 --- a/lib/simplegit.rb
@@ -83,7 +81,7 @@ Stage this hunk [y,n,a,d,/,j,J,g,e,?]?
 
 Using this option, you see what lines have changed since your prior commit. Type `?` to see what you can do next. You choose from the following actions:
 
-``` bash
+```bash
 Stage this hunk [y,n,a,d,/,j,J,g,e,?]? ?
 y - stage this hunk
 n - do not stage this hunk
@@ -100,7 +98,7 @@ e - manually edit the current hunk
 ? - print help
 ```
 
-Using `yes` or `no` to stage chunks of your code,  you can make bite-sized, understandable commit messages. Staging only the desired parts of code as you go.
+Using `yes` or `no` to stage chunks of your code, you can make bite-sized, understandable commit messages. Staging only the desired parts of code as you go.
 
 I like to make use of the `s` option, this shrinks the sizes of the patches that you want to commit.
 
@@ -108,11 +106,10 @@ Two things to note:
 
 1. You can stage individual lines and customize even further, with the `e` option. I haven't explored this myself.
 
-2. Depending on your `git config` , the `git commit` message prompt will appear in your  preferred text editor. At times this can lead to an aborted commit (reference: [Aborting Commit Due to Empty Commit Message](http://stackoverflow.com/questions/9725160/aborting-commit-due-to-empty-commit-message))
+2. Depending on your `git config` , the `git commit` message prompt will appear in your preferred text editor. At times this can lead to an aborted commit (reference: [Aborting Commit Due to Empty Commit Message](http://stackoverflow.com/questions/9725160/aborting-commit-due-to-empty-commit-message))
 
+---
 
-----------------------------------------------------------
-
-Choose your own favorite, or like I do, use them together.  There are other options still available that I haven't looked into. Let me know via email if there are others you think that I should try or would like.
+Choose your own favorite, or like I do, use them together. There are other options still available that I haven't looked into. Let me know via email if there are others you think that I should try or would like.
 
 Thanks for reading.

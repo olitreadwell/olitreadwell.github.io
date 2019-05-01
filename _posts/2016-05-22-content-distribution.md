@@ -2,15 +2,16 @@
 layout: post
 title: "Thoughts on content distribution"
 ---
+
 ![](/public/assets/img/social-content.png)
 
 At what point does distribution of content have diminishing returns?
 
 Recently, I've started to tweetstorm, I do so in order to quickly gather feedback, create an open conversation and most significantly to execute on writing with the method I'd use "if it looked easy".
 
-*I hope to write more about this soon.*
+_I hope to write more about this soon._
 
-From that initial creation, those tweetstorms usually continue to progress as posts on my personal website. Then becoming new posts for Medium and LinkedIn, part of my burgeoning newsletter. Eventually I share the now edited,fleshed out tweetstorm/blog posts again across the relevant networks.
+From that initial creation, those tweetstorms usually continue to progress as posts on my personal website. Eventually I share the now edited, fleshed out tweetstorm/blog posts again across the relevant networks.
 
 As I continue doing so, I've been thinking about the balance between distribution of a single similar piece of content, versus creation of new content.
 
@@ -34,10 +35,8 @@ Are we all still distributing content as a means to become some "domain expert" 
 
 On Twitter versus LinkedIn versus Medium versus my Personal Site, I want you to:
 
-* RT me or respond to [my stream](https://twitter.com/olitreadwell)
+- RT me or respond to [my stream](https://twitter.com/olitreadwell)
 
-* open me up to [new opportunities](https://linkedin.com/olitreadwell)
+- open me up to [new opportunities](https://linkedin.com/olitreadwell)
 
-* interact with [my post](https://medium.com/@olitreadwell)
-
-* subscribe to my [newsletter](https://tinyletter.com/olitreadwell)
+- interact with [my post](https://medium.com/@olitreadwell)

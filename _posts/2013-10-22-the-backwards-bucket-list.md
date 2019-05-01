@@ -28,6 +28,7 @@ Wheeeeeoowww…
 Let’s take a step back.
 
 ### The Backwards Bucket List
+
 The backwards bucket list is not about pining after something unaccomplished. It’s not about counting down the days.
 
 But…they go hand-in-hand.
@@ -42,9 +43,11 @@ overachiever you!). Big or small, write it down.
 Look at that list! It's immense; it's wonderful. Throw some gold stars on it; coverit in glitter. Take a photo of it. Be proud of it.
 
 ### Why do this?
+
 Writing your Backwards bucket list helps you in 2 ways.
 
 #### I. In crisis
+
 When you suffer from “What am I doing with my life?” or “What have I done with my life?”, the backwards bucket list will give you perspective.
 
 This is a list of your accomplishments. This isn’t a resumé; _life isn’t about your resumé_. It’s about life. Remember that.
@@ -52,6 +55,7 @@ This is a list of your accomplishments. This isn’t a resumé; _life isn’t ab
 Remember you’ve come a long way already and you’re not stopping.
 
 #### II.The bucket list
+
 Pull out that daunting bucket list. Stare it down.
 
 Now look back at your Backwards bucket list. Admire it. You have the ability to overcome so much.
@@ -69,5 +73,3 @@ Don’t forget these great things. You've done much that you should be proud of.
 So take 25 minutes and right out that Backwards bucket list. Be grateful for the things you've accomplished.
 
 If you do go ahead and write your reverse bucket list, and are willing to share it with us, post a link in the comments below. I'll include mine up here quickly.
-
-

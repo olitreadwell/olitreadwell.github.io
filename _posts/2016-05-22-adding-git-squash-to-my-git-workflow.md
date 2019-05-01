@@ -7,11 +7,11 @@ This post was originally a TweetStorm. [Read that tweetstorm](https://twitter.co
 
 This post is part of a group I've written about improving your version control skills.
 
-* [Git commiting interactively](/2014/12/27/git-commit-interactivity)
+- [Git commiting interactively](/2014/12/27/git-commit-interactivity)
 
-* [Strategies I use to level-up my git](/2016/05/22/strategies-to-level-up-my-git)
+- [Strategies I use to level-up my git](/2016/05/22/strategies-to-level-up-my-git)
 
-* [How to write a great pull request](/2016/05/22/how-to-write-great-pull-requests)
+- [How to write a great pull request](/2016/05/22/how-to-write-great-pull-requests)
 
 <hr>
 
@@ -21,7 +21,7 @@ The habit of regular small (even trivial) commits, was baked into me while going
 
 ![](/public/assets/img/prompt-with-commit-time.png)
 
-*picture credit to Tuo Huang from [this post](http://blog.reigndesign.com/blog/git-tip-show-current-branch-and-time-elapsed-since-last-commit-in-command-line/)*
+_picture credit to Tuo Huang from [this post](http://blog.reigndesign.com/blog/git-tip-show-current-branch-and-time-elapsed-since-last-commit-in-command-line/)_
 
 Eventually I learned of `git commit patch` and Gitx. I previously wrote about [git committing interactively](/2014/12/27/git-commit-interactivity).
 
@@ -31,7 +31,7 @@ With `git squash` in your VCS toolbelt it doesn't matter that I wrote 1 commit e
 
 Now after my full git log of commits I can go back and edit.
 
-*`git commit` drunk, `git squash` sober*
+_`git commit` drunk, `git squash` sober_
 
 `Git squash` allows you to turn the three commits into one for that test you wrote. Or to turn the passing test and the correctly method into one single commit.
 
@@ -52,8 +52,3 @@ Git squashing also pairs well with git cherry-picking. They are are similar, yet
 1. [Github : @goles zsh_git_timer](https://gist.github.com/Goles/1990882)
 
 2. [Git tip: show current branch and time elapsed since last commit in command line by Tuo Huang](http://blog.reigndesign.com/blog/git-tip-show-current-branch-and-time-elapsed-since-last-commit-in-command-line/)
-
-
-<hr>
-
-If you enjoyed this post, please [subscribe to my newsletter](http://tinyletter.com/olitreadwell)

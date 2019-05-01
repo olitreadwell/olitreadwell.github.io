@@ -10,7 +10,7 @@ I'll write about the challenges of doing so later.
 As I improve upon my code-spelunking skills, I received code
 references like the one below for errors I was coming upon.
 
-``` bash
+```bash
 $ grep -rn "color" .
 ./assets/less/site.less:8:  background-color: lighten(@basecolor, 65%);
 ./assets/less/site.less:9:  color: @basecolor;
@@ -18,17 +18,16 @@ $ grep -rn "color" .
 ```
 
 After opening up the file in Emacs for the hundredth time, I found
- a way to load the file at the specified code line.
-
+a way to load the file at the specified code line.
 
 ## +1 for Saving Time
+
 (reference: [StackOverflow:Open a file at line with “filename:line” syntax](http://stackoverflow.com/questions/3139970/open-a-file-at-line-with-filenameline-syntax))
 
 Using the code example, loading the appropriate file and line of code is as
- easy as:
+easy as:
 
-
-``` bash
+```bash
 $ grep -rn "color" .
 ./assets/less/site.less:8:  background-color: lighten(@basecolor, 65%);
 ./assets/less/site.less:9:  color: @basecolor;
@@ -37,11 +36,12 @@ $ emacs +8 ./assets/less/site.less
 ```
 
 This will work the same way if you're a Vim user too.
-``` bash
+
+```bash
 $ vi +8 ./assets/less/site.less
 ```
 
-----------------------------------------------------------
+---
 
 Here's a quick trick to finding the offending line of code for an error
 or the term you were searching for within your codebase. Give 'it a

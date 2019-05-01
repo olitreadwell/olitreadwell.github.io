@@ -21,30 +21,30 @@ In my pull requests I like to include a lot context. This would include some of 
 
 **1. A link to the ticket**
 
-  This is always helpful as a way to connect the different methods of communication that your company uses within your Product Development teams.
+This is always helpful as a way to connect the different methods of communication that your company uses within your Product Development teams.
 
 **2. A description of the ticket**
 
-  Explain potential changes in the code or away from the original intent of the story.
+Explain potential changes in the code or away from the original intent of the story.
 
-  This may be a synthesis of offline discussions you had surrounding the code you wrote. It could include what decisions were made, or realizations come to surrounding necessary codebase changes.
+This may be a synthesis of offline discussions you had surrounding the code you wrote. It could include what decisions were made, or realizations come to surrounding necessary codebase changes.
 
 **3. Why you made these changes**
 
-  I like think of this from a users perspective. This could look like a User Story
+I like think of this from a users perspective. This could look like a User Story
 
-  "A User should be able to do X"
+"A User should be able to do X"
 
-  Again this creates further clarification around the purpose for this pull request, which can result in stronger suggestions from those reviewing your code. Potentially even highlighting miscommunication or stimulating debate around what the original ticket was supposed to mean.
+Again this creates further clarification around the purpose for this pull request, which can result in stronger suggestions from those reviewing your code. Potentially even highlighting miscommunication or stimulating debate around what the original ticket was supposed to mean.
 
 **4. How you went about changing this functionality**
-  This could be said to be redundant due to your great git history but including it here prevents some simple context switching between the git history and your PR documentation.
+This could be said to be redundant due to your great git history but including it here prevents some simple context switching between the git history and your PR documentation.
 
 **5. Risk**
 
-  Risk involved with this pull request. Are you changing the primary login or payment gateway? Well let's make sure this doesn't blow up
+Risk involved with this pull request. Are you changing the primary login or payment gateway? Well let's make sure this doesn't blow up
 
-*Not to belabor a point, but you can also include*
+_Not to belabor a point, but you can also include_
 
 **6. QA plan**
 
@@ -68,13 +68,13 @@ After opening the pull request it's important to get feedback on it.
 
 Rather than making people give you suggestions, include comments and questions about things or thoughts you had while writing this PR.
 
-*Could this have been done better?*
+_Could this have been done better?_
 
-*I thought to add another test here.*
+_I thought to add another test here._
 
-*Should I raise an error here?*
+_Should I raise an error here?_
 
-*Could this query be faster/simpler?*
+_Could this query be faster/simpler?_
 
 I've also done these as notes within the code itself, just as a way to keep track of my thoughts while writing the code itself. For these internal notes, I'll highlight them by including a PR Line Note referencing my comment or further explaining my comment.
 
@@ -91,7 +91,3 @@ Now.. Bask in the glory of a PR well done before going to back to share the weal
 1. [Template for writing a great PR](https://gist.github.com/olitreadwell/294ab1c2ddea61c86027ec70501a5802)
 
 2. [Issue and Pull Request templates](https://github.com/blog/2111-issue-and-pull-request-templates)
-
-<hr>
-
-If you enjoyed this post, please [subscribe to my newsletter](http://tinyletter.com/olitreadwell)

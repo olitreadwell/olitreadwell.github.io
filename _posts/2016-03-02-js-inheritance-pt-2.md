@@ -2,6 +2,7 @@
 layout: post
 title: "Basics of JavaScript Prototype-based Inheritance (Part 2)"
 ---
+
 This article is the second in a series of three in which I explain some of what I've learned about JavaScript Inheritance and JavaScript Prototypes.
 
 [Basics of JavaScript Prototype-based Inheritance (Part 1)](/2016/03/02/js-inheritance-pt-1)
@@ -18,24 +19,23 @@ You can find the code for this series [here](https://gist.github.com/olitreadwel
 
 JavaScript is a prototype-based language. By using prototypes we can duplicate behaviors and attributes from existing objects (prototypes). If we would, we can imagine the `prototype` object as a blueprint for your other objects.
 
-Let's see this in action! *Follow along in your node REPL*
+Let's see this in action! _Follow along in your node REPL_
 
-First we'll create a constructor function to create a "class".  Now remember that JavaScript doesn't actually have classes.
+First we'll create a constructor function to create a "class". Now remember that JavaScript doesn't actually have classes.
 
-
-``` javascript
+```javascript
 var Canine = function(latinName) {
-    this.genus = "Canis";
-    this.latinName = latinName;
-}
+  this.genus = "Canis";
+  this.latinName = latinName;
+};
 
-node  > Canine
-node => [Function]
+node > Canine;
+node => [Function];
 ```
 
 Using the `new` keyword we'll create a new instance of this "class"
 
-``` javascript
+```javascript
 var dog = new Canine("Canis familiaris");
 
 node  > dog
@@ -50,23 +50,23 @@ node => { genus: 'Canis', latinName: 'Canis lupus' }
 
 If we want to make it so that all instances of our created "class" can behave in ways that our original "class" can, we'll use the `prototype` object on our original class.
 
-*A little confusing, let's try it out*
+_A little confusing, let's try it out_
 
-``` javascript
-Canine.prototype.howl = function () {
-    console.log("AAAAWWWOOOOOO");
-}
+```javascript
+Canine.prototype.howl = function() {
+  console.log("AAAAWWWOOOOOO");
+};
 
-node  > dog.howl();
-node => AAAAWWWOOOOOO
+node > dog.howl();
+node => AAAAWWWOOOOOO;
 
-node  > greyWolf.howl();
-node => AAAAWWWOOOOOO
+node > greyWolf.howl();
+node => AAAAWWWOOOOOO;
 ```
 
 Let's be sure that we can't just add methods and properties to instances of our "class" and have it apply to all instances.
 
-``` javascript
+```javascript
 dog.fetch = function() {
     console.log("dog wants to play fetch!");
 }

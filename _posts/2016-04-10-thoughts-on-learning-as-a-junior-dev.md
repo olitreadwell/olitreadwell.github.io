@@ -17,7 +17,7 @@ Everyday I work as a developer, I make as much use of my browser's DevTools, the
 
 Fair enough this may lead your user away from your learning platform, I understand that is not something you want to encourage as a business. However, does it not make them a more successful developer and thus have a better overall experience with learning on the platform.
 
-I'm of the opinion that you *can* teach DevTools and research while you teach HTML and CSS. There's no reason you should get to JavaScript or even jQuery without these skills. They solve so many early struggles.
+I'm of the opinion that you _can_ teach DevTools and research while you teach HTML and CSS. There's no reason you should get to JavaScript or even jQuery without these skills. They solve so many early struggles.
 
 ## Teaching superpowers early on
 

@@ -7,13 +7,14 @@ title: "Getting unstuck"
 
 You read all the productivity articles, you hacked your life, and downloaded three to-do list apps.
 
-"This is the week. The week I knock __blank__ off my list."
+"This is the week. The week I knock **blank** off my list."
 
 Yet, it's Sunday night and its stuck at the top of your to-do list, again.
+
 <hr>
 I haven't posted to my blog in over a week. I told all my friends I'd publish everyday, so I’d stay accountable to them. I set plenty of time aside. In fact, there’s a two-thirds finished post sitting in my Evernote. It's not published and the longer it's not done, the further stuck I am.
 
-I had to publish something. *Anything.* It just wasn't happening.
+I had to publish something. _Anything._ It just wasn't happening.
 
 Which is where this post comes in. It's my method to become "unstuck". I needed to write about something, and so you can benefit from learning, how I go about getting "unstuck."
 
@@ -26,6 +27,7 @@ The to-do is going to take you awhile. It might be twohours, might be twoweeks, 
 Here's what I did.
 
 ### 1. Realise you're psyching yourself out
+
 You're thinking about it too much.
 
 <figure>
@@ -34,11 +36,11 @@ You're thinking about it too much.
 </figure>
 
 AS FAKEGRIMLOCK SAYS...ahem...[be stupid](http://readwrite.com/2013/03/19/fake-grimlock-win-like-stupid). If you think about it too hard, you're thinking about reasons why you CAN’T do it.
-If you chose to __"BE STUPID"__, you'd probably already be done by now.
+If you chose to **"BE STUPID"**, you'd probably already be done by now.
 
 ### 2. Start now
 
-What is that to-do item you've wanted to accomplish? Mine is starting my own business. I know that, and yet I sit here delaying. __Do as I say not as I do.__
+What is that to-do item you've wanted to accomplish? Mine is starting my own business. I know that, and yet I sit here delaying. **Do as I say not as I do.**
 
 Take 30 minutes to focus on that one task now.
 
@@ -57,6 +59,7 @@ Getting stuck is debilitating. You realise you don't know how to get moving agai
 Within all those self-help guides, they tell you to start small. So I'm stealing from them. It is as much about baby steps in the right direction as it is about giant bounding leaps.
 
 When looking at those baby steps forward, your next imagined step is based on a past method. To do something new and difficult you can't begin with old methodology. If the planned first step is hard, attack the project in a different way.
+
 <hr>
 It's amazing to think that I was stuck, because if that's the case it's just about changing the way you perceive something. Realistically, I wasn't stuck. I was lazy. I was stubbornly assuming that I should go back and finish a lacklustre piece. I didn't want to do that and so I just waited around and twiddled my fingers.
 

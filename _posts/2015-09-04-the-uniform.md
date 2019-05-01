@@ -35,7 +35,7 @@ I got onto this idea when I realised, that I had been filling up my walk-in clos
 
 I enjoy being able to dress up and change my outfit. To try out different looks. It's a fun transformation from gym rat to programmer. From going out with friends to lazing around the house.
 
-----------------------------------------------------------
+---
 
 In the end, perhaps this is more a mental experiment leading me to declutter, than to create a Jobs-ian uniform.
 

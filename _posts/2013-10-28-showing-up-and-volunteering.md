@@ -86,9 +86,8 @@ Simply put, it’s finding the events you like, then be annoying enough with how
 
 Best of luck.
 
-----
+---
 
 When it works for you, let me know <a href="mailto:olitreadwell@gmail.com?subject=It%20worked!%20-%20RE:%20Showing%20up%20and%20volunteering"><span class="s3">via email</a>.
 
 If you really like my posts, please subscribe. I promise they’ll get better.
-

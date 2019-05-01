@@ -13,7 +13,6 @@
   }
 </style>
 
-
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
@@ -26,25 +25,32 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">Home</a>
+      <a
+        class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}"
+        href="{{ site.url }}"
+        >Home</a
+      >
 
-      {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-      {% if node.title != null %}
-      {% if node.layout == "page" %}
-      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
+      {% comment %} The code below dynamically generates a sidebar nav of pages
+      with `layout: page` in the front-matter. See readme for usage. {%
+      endcomment %} {% assign pages_list = site.pages %} {% for node in
+      pages_list %} {% if node.title != null %} {% if node.layout == "page" %}
+      <a
+        class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
+        href="{{ node.url }}"
+        >{{ node.title }}</a
+      >
+      {% endif %} {% endif %} {% endfor %}
 
       <div class="sidebar-nav-item">
-        <a href="https://github.com/olitreadwell" target="_blank"><i class="fa fa-github fa-lg"></i></a> |
-        <a href="https://linkedin.com/in/olitreadwell" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a> |
+        <a href="https://github.com/olitreadwell" target="_blank"
+          ><i class="fa fa-github fa-lg"></i
+        ></a>
+        |
+        <a href="https://linkedin.com/in/olitreadwell" target="_blank"
+          ><i class="fa fa-linkedin fa-lg"></i
+        ></a>
+        |
         <a
           href="https://drive.google.com/file/d/1xfJVN6z3gGGk7n_xB2MrzaeJXDphiUDW/view?usp=sharing"
           target="_blank"
@@ -54,6 +60,6 @@
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>&copy; {{ site.time | date: "%Y" }}. All rights reserved.</p>
   </div>
 </div>

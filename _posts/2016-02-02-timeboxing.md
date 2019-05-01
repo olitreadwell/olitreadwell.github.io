@@ -23,7 +23,7 @@ Typically, my suggested hierarchy for asking a question regarding programming is
 
 1. ​**Ask the code** - Can you find an example of the problem you're trying to solve in other chunks of code that you have access to?
 
-2. ​**Ask Stack Overflow**​ - If you're googling or stack overflowing and then trying things, congratulations you're a darn good programmer already. A lot of times answers will be online, either as part of a slack overflow answer (with caveats*) or as part of a blog post.
+2. ​**Ask Stack Overflow**​ - If you're googling or stack overflowing and then trying things, congratulations you're a darn good programmer already. A lot of times answers will be online, either as part of a slack overflow answer (with caveats\*) or as part of a blog post.
 
 3. ​**Ask your peer**​ - Ask your peer, either the person working through this issue next to you, or throw your question into slack where we will do our best to answer your questions
 
@@ -31,6 +31,7 @@ Typically, my suggested hierarchy for asking a question regarding programming is
 
 Hope that helps!
 
-----------------------------------------------------------
+---
+
 If you have any comments, feel free to get in touch via twitter.
 Follow or tweet me at [@olitreadwell](http://twitter.com/olitreadwell)

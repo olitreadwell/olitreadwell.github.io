@@ -4,6 +4,7 @@ title: "On why you should learn Emacs or Vim, as soon as you're comfortable with
 ---
 
 ## AKA: How I learned to stop worrying and love Emacs, which is the bomb!
+
 This post was originally a TweetStorm. You can see that Tweetstorm storified [here](https://twitter.com/olitreadwell/status/722222185205665792)
 
 ### The Journey Awaits
@@ -14,22 +15,22 @@ It feels like the time to enter the wild world of non-platform based coding envi
 
 ![Cat in Pink Wig Typing](https://media.giphy.com/media/fHekGKVKEpRgk/giphy.gif "It me!")
 
->**This is great!**  
-{Sublime Text||Atom||Brackets} is awesome. <br>
-Look at this slick new theme I've got, all these dope packages I've installed.
-I'm templating with Emmett. Linting like crazy.
+> **This is great!**  
+> {Sublime Text||Atom||Brackets} is awesome. <br>
+> Look at this slick new theme I've got, all these dope packages I've installed.
+> I'm templating with Emmett. Linting like crazy.
 
 You've got this covered. You feel at home in your text editor.
 
-***Now is the time to give your new friendly neighborhood in terminal editor a chance.***
+**_Now is the time to give your new friendly neighborhood in terminal editor a chance._**
 
 ### The Battle Begins
 
-I'm not going to get into the battle of *Vim* versus *Emacs*. Let someone else fight that war. It'll be better than *Batman v. Superman* at least.
+I'm not going to get into the battle of _Vim_ versus _Emacs_. Let someone else fight that war. It'll be better than _Batman v. Superman_ at least.
 
 **So just choose one.** How? Probably the one a peer is using and will happily teach you the way in.
 
-![Rey is the Sh\*t](https://fsmedia.imgix.net/32/53/89/e8/4399/43a2/8fda/387a67c6bc68/rey-finds-luke-skywalker.gif?dpr=1&auto=format&q=75 "Rey is the Sh*t")
+![Rey is the Sh*t](https://fsmedia.imgix.net/32/53/89/e8/4399/43a2/8fda/387a67c6bc68/rey-finds-luke-skywalker.gif?dpr=1&auto=format&q=75 "Rey is the Sh*t")
 
 It'll be a humbling start. You won't know how to navigate or select things. The thing is.... There's not really a cursor, no mouse. You're stuck on the keyboard.
 
@@ -61,7 +62,7 @@ Once the basics are embedded into your head, you'll slowly gather speed. Now tha
 
 Remember all those handy packages you were using. That sweet as theme. Those are available for [Vim](http://vimawesome.com/) and [Emacs](https://melpa.org/#/). Slowly but surely you'll add packages and tools back into your upgraded utility belt.
 
-Then when you feel you're comfortable with Vim or Emacs, the choice is up to you. At that point you can go back to your old text editor with these new found super powers. *I've recently done this, returning to Atom.* Stay with Vim or Emacs. Maybe you make the choice to move to another IDE like Eclipse, RubyMine, Webstorm, or IntelliJ. It's about choosing the right tool for the project, for you, and for your workflow.
+Then when you feel you're comfortable with Vim or Emacs, the choice is up to you. At that point you can go back to your old text editor with these new found super powers. _I've recently done this, returning to Atom._ Stay with Vim or Emacs. Maybe you make the choice to move to another IDE like Eclipse, RubyMine, Webstorm, or IntelliJ. It's about choosing the right tool for the project, for you, and for your workflow.
 
 ### Why you should learn Vim or Emacs now - Machete Order
 
@@ -70,31 +71,34 @@ To recap, by diving into using Vim or Emacs early on, you'll overcome that learn
 
 Do so for the following reasons:
 
-* Overall productivity increase as you won't rely on the mouse or trackpad
+- Overall productivity increase as you won't rely on the mouse or trackpad
 
-* Greater familiarity with your terminal
+- Greater familiarity with your terminal
 
-* Portability of this knowledge to most any system (most have vim or emacs)
+- Portability of this knowledge to most any system (most have vim or emacs)
 
-* The capacity to use shortcuts or navigation from Emacs or Vim elsewhere
+- The capacity to use shortcuts or navigation from Emacs or Vim elsewhere
 
-* Knowing you've conquered one of those "good to have" Dev experiences and moving forward however you please
+- Knowing you've conquered one of those "good to have" Dev experiences and moving forward however you please
 
 **Go give one of them a try today.**
 
 <hr>
 
 ### Addendum: The Vim & Emacs Christmas Special - Tips & Tricks!
+
 1. Vim and Emacs have cool online and in-text editor tutorials.
-	* Emacs has a tutorial within the text editor itself, you can access it by using the following hotkeys `ctrl+h, t`
-	* Vim has a fun online tutorial called [Vim Adventures](http://vim-adventures.com/)
+
+   - Emacs has a tutorial within the text editor itself, you can access it by using the following hotkeys `ctrl+h, t`
+   - Vim has a fun online tutorial called [Vim Adventures](http://vim-adventures.com/)
 
 2. Make your desktop background a cheatsheet of shortcuts and commands for your chosen editor to refer back to and learn
-	* [Emacs Shortcuts Background Image](http://i.imgur.com/RxlwP.png)
-	* [Vim Shortcuts Background Image](https://raw.githubusercontent.com/LevelbossMike/vim_shortcut_wallpaper/master/vim-shortcuts-dark_2560x1600.png)
+
+   - [Emacs Shortcuts Background Image](http://i.imgur.com/RxlwP.png)
+   - [Vim Shortcuts Background Image](https://raw.githubusercontent.com/LevelbossMike/vim_shortcut_wallpaper/master/vim-shortcuts-dark_2560x1600.png)
 
 3. Keep researching different commands with the help of your peers and the Internet.
 
 4. Disable your arrow keys when using either terminal (enable hard mode)
-	* [How to disable arrow keys in Vim - Code Yarns](https://codeyarns.com/2013/02/07/how-to-disable-arrow-keys-in-vim/)
-	* [Disable Arrow Keys In emacs - Slack Overflow](http://superuser.com/questions/437953/disable-arrow-keys-in-emacs)
+   - [How to disable arrow keys in Vim - Code Yarns](https://codeyarns.com/2013/02/07/how-to-disable-arrow-keys-in-vim/)
+   - [Disable Arrow Keys In emacs - Slack Overflow](http://superuser.com/questions/437953/disable-arrow-keys-in-emacs)

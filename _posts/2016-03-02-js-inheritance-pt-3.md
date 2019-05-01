@@ -2,6 +2,7 @@
 layout: post
 title: "Basics of JavaScript Prototype-based Inheritance (Part 3)"
 ---
+
 This article is the third in a series of three in which I explain some of what I've learned about JavaScript Inheritance and JavaScript Prototypes.
 
 [Basics of JavaScript Prototype-based Inheritance (Part 1)](/2016/03/02/js-inheritance-pt-1)
@@ -18,31 +19,30 @@ You can find the code for this series [here](https://gist.github.com/olitreadwel
 
 If you'll remember from my last post, JavaScript is a prototype-based language. By using prototypes we can duplicate behaviors and attributes from existing objects (prototypes). If we would, we can imagine the `prototype` object as a blueprint for your other objects.
 
-
 Let's recap the code we wrote last time.
 
-*Follow along in your node REPL*
+_Follow along in your node REPL_
 
-``` javascript
+```javascript
 var Canine = function(latinName) {
-    this.genus = "Canis";
-    this.latinName  = latinName;
-}
+  this.genus = "Canis";
+  this.latinName = latinName;
+};
 
-var dog      = new Canine("Canis familiaris");
+var dog = new Canine("Canis familiaris");
 var greyWolf = new Canine("Canis lupus");
 
 Canine.prototype.howl = function() {
-    console.log("AAAAWWWOOOOOO");
-}
+  console.log("AAAAWWWOOOOOO");
+};
 
 dog.fetch = function() {
-    console.log("dog wants to play fetch!");
-}
+  console.log("dog wants to play fetch!");
+};
 
 greyWolf.hunt = function() {
-    console.log("grey wolf is hunting its prey");
-}
+  console.log("grey wolf is hunting its prey");
+};
 ```
 
 This code helps us demonstrate the first usage of `prototype` to help instances inherit methods and properties from its "class" object.
@@ -51,7 +51,7 @@ Remember JavaScript doesn't have Ruby-like Classes.
 
 Now that we've established that, let's create a new `Dog` object that inherits from our `Canine` object.
 
-``` javascript
+```javascript
 var Dog = function(name, latinName) {
     Canine.call(this, latinName);
     this.name = name;
@@ -65,8 +65,7 @@ We've built another simple `constructor` called `Dog` with a property `name`.
 
 Let's specifically look at this line:
 
-
-``` javascript
+```javascript
     ...
     Canine.call(this, latinName);
     ...
@@ -74,10 +73,9 @@ Let's specifically look at this line:
 
 Using `call` sets a value for the `latinName` property for the `Dog` object, in the context of the `Canine` object.
 
-*What does this look familiar to?* This might appear very similar to a super call that we'd see in Ruby.
+_What does this look familiar to?_ This might appear very similar to a super call that we'd see in Ruby.
 
-
-``` ruby
+```ruby
 class Animal
     def move
         "I can move"
@@ -93,7 +91,7 @@ end
 
 So we can see this in action!
 
-``` javascript
+```javascript
 node  > var spot = new Dog('Spot', 'Canis familiaris');
 node  > spot
 node => { genus: 'Canis', latinName: 'Canis familiaris', name: 'Spot' }
@@ -101,7 +99,7 @@ node => { genus: 'Canis', latinName: 'Canis familiaris', name: 'Spot' }
 
 So have we successfully inherited from `Canine` yet? Let's see.
 
-``` javascript
+```javascript
 node  > spot
 node => { genus: 'Canis', latinName: 'Canis familiaris', name: 'Spot' }
 
@@ -113,7 +111,7 @@ No, it doesn't look like it.
 
 Alright, enough messing around. How does `Dog` inherit from the `Canine` object? **More Prototypes!**
 
-``` javascript
+```javascript
 var Canine = function(latinName) {
     this.genus = "Canis";
     this.latinName  = latinName;
@@ -145,19 +143,18 @@ node => AAAAWWWOOOOOO
 
 Alright we did it! Wait, what did we do? Let's focus in on the magic.
 
-``` javascript
+```javascript
     ...
     Dog.prototype = Object.create(Canine.prototype);
     Dog.prototype.constructor = Dog;
     ...
 ```
 
-
 The `Object.create` call creates a `Dog.prototype` object from the `Canine.prototype` object. `Dog` inherits all the properties and methods from `Canine`.
 
 The second line sets the `Dog.prototype` object's original constructor. Each time you set an object property to inherit from another object, we need to define the constructor for this new object. If we didn't set the following:
 
-``` javascript
+```javascript
     ...
     Dog.prototype.constructor = Dog;
     ...
@@ -167,7 +164,7 @@ The second line sets the `Dog.prototype` object's original constructor. Each tim
 
 Let's make it so all our new `Dog` instances can `fetch`~
 
-``` javascript
+```javascript
 var Canine = function(latinName) {
     this.genus = "Canis";
     this.latinName  = latinName;

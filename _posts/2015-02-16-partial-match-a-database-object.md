@@ -16,6 +16,7 @@ Two methods make it easy to gain access to these newly created objects:
 2. Search Database records using a Partial String
 
 ## Search Database records using a Partial String
+
 (reference: [StackOverflow:How can I match a partial string to a database's object's
 attribute? Regexp?](http://stackoverflow.com/questions/22596861/how-can-i-match-a-partial-string-to-a-databases-objects-attribute-regexp))
 
@@ -25,13 +26,13 @@ The other option provides a search for ActiveRecord Objects.
 all the records in your database. That takes a lot of power and could end up causing
 significant problems for your database.
 
-``` ruby
+```ruby
 Account.where("email like ?", "%olitreadwell%")
 ```
 
 <strong>OR</strong>
 
-``` ruby
+```ruby
 User.where("username like ?", "%olitreadwell%")
 ```
 
@@ -42,8 +43,7 @@ string.
 Again, this searches all the objects of one type within your database for a string,
 making it take a large toll on your database. So use it sparingly.
 
-
-----------------------------------------------------------
+---
 
 Here's one of two different methods for finding recent or specific records in an ActiveRecord
 database. Give it a shot, though carefully. Let me know what you think.

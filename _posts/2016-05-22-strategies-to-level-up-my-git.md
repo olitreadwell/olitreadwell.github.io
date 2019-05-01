@@ -7,11 +7,11 @@ This post was originally a TweetStorm. [Read that tweetstorm](https://twitter.co
 
 This post is part of a group I've written about improving your version control skills.
 
-* [Git commiting interactively](/2014/12/27/git-commit-interactivity)
+- [Git commiting interactively](/2014/12/27/git-commit-interactivity)
 
-* [Adding `git squash` to my git workflow](/2016/05/22/adding-git-squash-to-my-git-workflow)
+- [Adding `git squash` to my git workflow](/2016/05/22/adding-git-squash-to-my-git-workflow)
 
-* [How to write a great pull request](/2016/05/22/how-to-write-great-pull-requests)
+- [How to write a great pull request](/2016/05/22/how-to-write-great-pull-requests)
 
 <hr>
 
@@ -19,21 +19,21 @@ I've had some serious level ups in my git workflow as I've continued working as 
 
 Currently my git workflow focuses on a few things:
 
-* Small staccato commits that come together to tell a story
+- Small staccato commits that come together to tell a story
 
-* Using feature branches
+- Using feature branches
 
-* Writing great pull requests
+- Writing great pull requests
 
 ## No fear of committing
 
-The habit of regular small (even trivial) commits, was  baked into me while going through Dev Bootcamp in Chicago. This happened because our cohort would inevitable yell out "NIGHTHAWKS COMMIT!" at timed intervals to ensure we were iterating on our Version Control learning.
+The habit of regular small (even trivial) commits, was baked into me while going through Dev Bootcamp in Chicago. This happened because our cohort would inevitable yell out "NIGHTHAWKS COMMIT!" at timed intervals to ensure we were iterating on our Version Control learning.
 
 I then further systematized this by including a tool in my terminal prompt that told me the time since my last commit on my current branch, similar to what @Goles has written here for the [Zsh terminal](https://gist.github.com/Goles/1990882).
 
 ![](/public/assets/img/prompt-with-commit-time.png)
 
-*picture credit to Tuo Huang from [this post](http://blog.reigndesign.com/blog/git-tip-show-current-branch-and-time-elapsed-since-last-commit-in-command-line/)*
+_picture credit to Tuo Huang from [this post](http://blog.reigndesign.com/blog/git-tip-show-current-branch-and-time-elapsed-since-last-commit-in-command-line/)_
 
 Eventually I learned of `git commit patch` and Gitx. I previously wrote about [git committing interactively](/2014/12/27/git-commit-interactivity).
 
@@ -60,7 +60,3 @@ All together these allow me to feel confident in my version control capabilities
 1. [Github : @goles zsh_git_timer](https://gist.github.com/Goles/1990882)
 
 2. [Git tip: show current branch and time elapsed since last commit in command line by Tuo Huang](http://blog.reigndesign.com/blog/git-tip-show-current-branch-and-time-elapsed-since-last-commit-in-command-line/)
-
-<hr>
-
-If you enjoyed this post, please [subscribe to my newsletter](http://tinyletter.com/olitreadwell)

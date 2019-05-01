@@ -5,9 +5,9 @@ title: "Dev Bootcamp graduation"
 
 Hi there!
 
-__I graduated from Dev Bootcamp last week! It was fantastic, but it's taken a long time to get here.__
+**I graduated from Dev Bootcamp last week! It was fantastic, but it's taken a long time to get here.**
 
-Before I came to [Dev Bootcamp](http://devbootcamp.com), I worked with a fantastic community of people in Melbourne, Australia. While there I worked with Melbourne's leading early-stage technology venture capital firm, [Adventure Capital](http://adventurecapital.vc/). The Partners (Thanks Darcy and Stu!) and their team (there's too many of you, but you know there's a warm spot in my heart for each of you) jolted my ambition to a next level. The [York Butter Factory](http://yorkbutterfactory.com/)  community, founded by Adventure Capital, gave me the foundation to do great things.
+Before I came to [Dev Bootcamp](http://devbootcamp.com), I worked with a fantastic community of people in Melbourne, Australia. While there I worked with Melbourne's leading early-stage technology venture capital firm, [Adventure Capital](http://adventurecapital.vc/). The Partners (Thanks Darcy and Stu!) and their team (there's too many of you, but you know there's a warm spot in my heart for each of you) jolted my ambition to a next level. The [York Butter Factory](http://yorkbutterfactory.com/) community, founded by Adventure Capital, gave me the foundation to do great things.
 
 From there I went on to one of the hardest learning experiences I had before Dev Bootcamp. Working with [MMGN.com](http://mmgn.com/) as their Operations Manager was going from the heat of moving to a new country to the fire of a startup. Roy, Gaetano, and Ben made me feel welcome. They were flexible in understanding that I was doing my best. At MMGN.com, I learned what it takes for me to succeed and developed great relationships with my teammates.
 
