@@ -17,10 +17,28 @@
         line-height: 1.6;
         max-width: 85%;
       }
+
+      summary {
+        border: 1px solid darkgray;
+        border-radius: 0.3rem;
+        padding: 0 0.2rem;
+        width: fit-content;
+      }
+
+      #projects ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      #projects li {
+        margin: 0.5rem 0;
+      }
+
+      footer {
+        border-top: 1px solid darkgrey;
+        padding-top: 1rem;
+      }
     </style>
-    <link
-      href="styles/main.css"
-      rel="stylesheet" />
   </head>
   <body>
     <header
@@ -37,15 +55,7 @@
       </p>
       <nav role="navigation">
         <details>
-          <summary
-            style="
-              border-radius: 0.3rem;
-              border: 1px solid darkgray;
-              padding: 0 0.2rem;
-              width: fit-content;
-            ">
-            Menu
-          </summary>
+          <summary>Menu</summary>
 
           <ul
             id="menu"
@@ -168,7 +178,7 @@
       <section id="projects">
         <h2>Projects</h2>
         <h3>Key Projects</h3>
-        <ul>
+        <ul style="list-style-type: none; padding: 0">
           <li>
             <h4>'Slashtag' Website Development at Habitual Genesis:</h4>
             Oli deployed a mobile-first, low-maintenance website for
@@ -243,15 +253,7 @@
     <footer>
       <a href="#back-to-top">Back To Top</a>
       <details>
-        <summary
-          style="
-            border-radius: 0.3rem;
-            border: 1px solid darkgray;
-            padding: 0 0.2rem;
-            width: fit-content;
-          ">
-          Links
-        </summary>
+        <summary>Links</summary>
         <ul style="list-style-type: none; padding: 0">
           <li>
             <a
