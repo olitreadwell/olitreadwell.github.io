@@ -5,104 +5,174 @@
     <meta
       name="viewport"
       content="width=device-width, height=device-height, initial-scale=1.0" />
-    <title>Oli Treadwell's website</title>
+    <title>
+      Oli Treadwell | Senior Software Engineer &amp; A11y Advocate
+    </title>
     <meta
       name="description"
-      content="Oli Treadwell's website" />
+      content="Oli Treadwell - Senior Software Engineer and Accessibility Advocate based in Wellington, New Zealand. 10+ years building for the web." />
     <style>
+      :root {
+        --color-border: darkgray;
+        --color-focus: #0056b3;
+        --color-text: #222;
+        --color-bg: #fff;
+        --spacing-section: 1rem;
+        --spacing-list-indent: 1rem;
+        --font-family-base: sans-serif;
+        --font-size-base: 16px;
+        --line-height-base: 1.6;
+        --max-width-body: 85%;
+        --border-radius-sm: 0.3rem;
+      }
+
       body {
         margin: 5% auto;
-        font-family: sans-serif;
-        font-size: 16px;
-        line-height: 1.6;
-        max-width: 85%;
+        font-family: var(--font-family-base);
+        font-size: var(--font-size-base);
+        line-height: var(--line-height-base);
+        max-width: var(--max-width-body);
+        color: var(--color-text);
+        background: var(--color-bg);
       }
 
       summary {
-        border: 1px solid darkgray;
-        border-radius: 0.3rem;
-        padding: 0 0.2rem;
+        border: 1px solid var(--color-border);
+        border-radius: var(--border-radius-sm);
+        padding: 0.2rem 0.5rem;
         width: fit-content;
+        cursor: pointer;
       }
 
-      #projects ul {
+      summary:hover {
+        background: #f0f0f0;
+      }
+
+      .skip-link {
+        position: absolute;
+        top: -100%;
+        left: 0;
+        padding: 0.5rem 1rem;
+        background: var(--color-focus);
+        color: #fff;
+        text-decoration: none;
+        z-index: 100;
+      }
+
+      .skip-link:focus {
+        top: 0;
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--color-focus);
+        outline-offset: 2px;
+      }
+
+      .section-border-bottom {
+        border-bottom: 1px solid var(--color-border);
+        padding-bottom: var(--spacing-section);
+      }
+
+      .section-border-top {
+        border-top: 1px solid var(--color-border);
+        padding-top: var(--spacing-section);
+      }
+
+      .unstyled-list {
         list-style-type: none;
         padding: 0;
       }
 
-      #projects li {
+      .skills-list {
+        padding: 0 var(--spacing-list-indent) 0;
+      }
+
+      .nested-details {
+        margin: 0.5rem 0 0.5rem 1rem;
+      }
+
+      .nested-details summary {
+        font-weight: normal;
+      }
+
+      #projects .unstyled-list li {
         margin: 0.5rem 0;
       }
 
-      footer {
-        border-top: 1px solid darkgrey;
-        padding-top: 1rem;
+      .oss-list li {
+        margin: 0.4rem 0;
       }
     </style>
   </head>
   <body>
-    <header
-      id="back-to-top"
-      style="border-bottom: 1px solid darkgrey; padding-bottom: 1rem">
-      <h1>Welcome to Oli Treadwell's Personal Site.</h1>
+    <a href="#main-content" class="skip-link">
+      Skip to main content
+    </a>
+
+    <header id="back-to-top" class="section-border-bottom">
+      <h1>Oli Treadwell</h1>
       <p>
-        It's based on this
-        <a
-          href="https://olitreadwell.github.io/the-motherloving-website/"
-          target="_blank"
-          >template</a
-        >.
+        Senior Software Engineer &amp; Accessibility (A11y)
+        Advocate | Wellington, NZ
       </p>
-      <nav role="navigation">
+      <nav aria-label="Main navigation">
         <details>
           <summary>Menu</summary>
-
-          <ul
-            id="menu"
-            style="list-style-type: none; padding: 0">
+          <ul id="menu" class="unstyled-list">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <!-- <li><a href="#experience">Experience</a></li> -->
+            <li><a href="#community">Community</a></li>
+            <li><a href="#open-source">Open Source</a></li>
             <li>
               <a
                 href="https://www.linkedin.com/in/olitreadwell/"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn profile (opens in new tab)">
                 LinkedIn
               </a>
             </li>
             <li>
               <a
                 href="https://github.com/olitreadwell"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub profile (opens in new tab)">
                 GitHub
               </a>
             </li>
             <li>
               <a
                 href="https://www.github.com/olitreadwell/resume"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Resume on GitHub (opens in new tab)">
                 Resume
               </a>
             </li>
             <li>
               <a
                 href="https://instagram.com/habitualgenesis"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Photography on Instagram (opens in new tab)">
                 Photography
               </a>
             </li>
             <li>
               <a
                 href="mailto:oliver.treadwell@gmail.com"
-                target="_blank">
+                aria-label="Send an email to Oli">
                 Contact Me
               </a>
             </li>
             <li>
               <a
                 href="https://fantastical.app/olitreadwell/30"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Book a call on Fantastical (opens in new tab)">
                 Schedule a Call
               </a>
             </li>
@@ -111,189 +181,420 @@
       </nav>
     </header>
 
-    <main>
+    <main id="main-content">
       <section id="about">
-        <h2>About Oli Treadwell</h2>
+        <h2>About Me</h2>
         <p>
-          Meet Oli Treadwell, a software engineer and creative tech consultant
-          who believes in the power of innovative problem-solving. With a solid
-          grounding in technologies like JavaScript, HTML5, CSS3, ReactJS, and
-          Python, Oli enjoys the challenge of turning complex problems into
-          simple, robust software solutions.
+          I'm a software engineer with ten-plus years of building
+          things for the web. I was British born, California raised,
+          and Texas aged, with stops in Chicago, Los Angeles, and
+          Melbourne along the way. These days I'm based in
+          Wellington, New Zealand, working at Numeral Studio where
+          I write React, Next.js, TypeScript, and Node.js most days.
         </p>
         <p>
-          Oli's journey in the tech world goes beyond just coding. He has been
-          privileged to participate and contribute in tech-related events and
-          conferences like the axe-con Accessibility Conference in 2023 and the
-          Assert(JS) Conference in 2018. Although Oli's experience as a tech
-          instructor is a small part of his career, it has helped him foster
-          important skills such as communication, collaboration, and critical
-          thinking.
+          I got into tech through startups. I spent time around
+          angel investing, VC, and coworking spaces before
+          co-organising Startup Weekend events and running tech
+          meetups like Refresh Austin and Silicon Beach Melbourne.
+          Eventually I retrained as a software engineer so I could
+          build my own apps if I ever needed to. I've spent most of
+          my career as an engineer rather than an entrepreneur, but
+          that startup background has followed me the whole way.
         </p>
         <p>
-          Feel free to explore more about Oli's background, technical skills,
-          and project accomplishments in the sections below.
+          I care about making the web work for everyone, not just
+          the people who happen to have fast connections and perfect
+          vision. That interest led me to create a talk called
+          "The Cognitively-Kind Web," which I'm presenting at NZ
+          Tech Rally 2026. Mentoring and teaching is how I like to
+          learn and contribute best. I've helped train 300+
+          engineers of all ages through work with organisations
+          like The Flatiron School, Hack Reactor, General Assembly,
+          and Codecademy. Those cohorts graduated at about a 90%
+          rate with 75% landing jobs within six months.
+        </p>
+        <p>
+          When I'm not at a keyboard I'm usually out with a camera.
+          You can see some of that work on
+          <a
+            href="https://instagram.com/habitualgenesis"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram (opens in new tab)">Instagram</a>.
+          I like live music, exploring a new city without much of a
+          plan, cycling, roller skating, dancing, and trying to get
+          better at cooking. I grew up in San Diego, went to
+          university at Chapman in Orange County, and picked up a
+          bit of everything from the places I've lived since. I
+          finished a postgrad diploma in IT at WelTec here in
+          Wellington.
         </p>
       </section>
+
       <section id="skills">
         <h2>Technical Skills</h2>
         <details>
-          <summary
-            style="
-              border-radius: 0.3rem;
-              border: 1px solid darkgray;
-              padding: 0 0.2rem;
-              width: fit-content;
-            ">
-            Expand Skills List
+          <summary>Expand Skills List</summary>
+
+          <details class="nested-details">
+            <summary>Languages</summary>
+            <ul class="skills-list">
+              <li>JavaScript/ES6+</li>
+              <li>TypeScript</li>
+              <li>Python</li>
+              <li>Ruby</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>SASS/SCSS</li>
+              <li>SQL</li>
+            </ul>
+          </details>
+
+          <details class="nested-details">
+            <summary>Frameworks &amp; Libraries</summary>
+            <ul class="skills-list">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>React Router</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Ruby on Rails</li>
+              <li>Flask</li>
+              <li>GSAP</li>
+            </ul>
+          </details>
+
+          <details class="nested-details">
+            <summary>Testing</summary>
+            <ul class="skills-list">
+              <li>Jest</li>
+              <li>React Testing Library</li>
+              <li>Cypress</li>
+              <li>Puppeteer</li>
+              <li>RSpec</li>
+              <li>Storybook</li>
+            </ul>
+          </details>
+
+          <details class="nested-details">
+            <summary>Data &amp; Databases</summary>
+            <ul class="skills-list">
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>GraphQL</li>
+              <li>Prisma ORM</li>
+              <li>Sanity CMS</li>
+            </ul>
+          </details>
+
+          <details class="nested-details">
+            <summary>Infrastructure &amp; DevOps</summary>
+            <ul class="skills-list">
+              <li>Git &amp; GitHub</li>
+              <li>GitHub Actions</li>
+              <li>Jenkins</li>
+              <li>AWS</li>
+              <li>Heroku</li>
+              <li>Netlify</li>
+              <li>Docker</li>
+            </ul>
+          </details>
+
+          <details class="nested-details">
+            <summary>Practices</summary>
+            <ul class="skills-list">
+              <li>Web Accessibility (A11y)</li>
+              <li>Responsive Design</li>
+              <li>Component Architecture</li>
+              <li>Design Systems</li>
+              <li>Agile / Scrum</li>
+              <li>Code Review</li>
+              <li>Technical Writing</li>
+              <li>Mentoring &amp; Pair Programming</li>
+            </ul>
+          </details>
+        </details>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <details open>
+          <summary>Professional (Numeral Studio, 2025)</summary>
+          <ul class="unstyled-list">
+            <li>
+              <h3>Fortune 500 Mobile-First Progressive Web App</h3>
+              <p>
+                Frontend work on a React/Next.js/TypeScript
+                platform serving international markets. Converted
+                images to WebP, added Korean and English
+                localisation, and fixed iOS-specific search issues.
+              </p>
+            </li>
+            <li>
+              <h3>HR Case Reporting Platform</h3>
+              <p>
+                Full-stack work on a case management system for HR
+                organisations. Built case routing, privacy
+                controls, role-based access, and a Cypress
+                end-to-end test suite.
+              </p>
+            </li>
+            <li>
+              <h3>TDC Website Platform</h3>
+              <p>
+                Full-stack work on a conference website built with
+                Next.js and Sanity CMS. Built shared components
+                that cut code duplication by 70%.
+              </p>
+            </li>
+            <li>
+              <h3>Compliance Desktop App</h3>
+              <p>
+                Front-end engineer on a React/Electron/TypeScript
+                desktop application for commercial reporting,
+                with a focus on accessible form components.
+              </p>
+            </li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>
+            Habitual Genesis (Freelance &amp; Pro Bono, 2016
+            onwards)
           </summary>
-          <ul style="padding: 0 1rem 0">
-            <li>JavaScript/ES6+</li>
-            <li>TypeScript</li>
-            <li>Node.js</li>
-            <li>ReactJS</li>
-            <li>React Router</li>
-            <li>Jest</li>
-            <li>Puppeteer</li>
-            <li>Ruby</li>
-            <li>Ruby on Rails</li>
-            <li>Python</li>
-            <li>Flask</li>
-            <li>SASS/SCSS</li>
-            <li>CSS3</li>
-            <li>HTML5</li>
-            <li>AWS</li>
-            <li>Heroku</li>
-            <li>Netlify</li>
-            <li>Jenkins</li>
-            <li>PostgreSQL</li>
-            <li>GraphQL</li>
-            <li>MongoDB</li>
-            <li>git</li>
-            <li>GitHub</li>
-            <li>Accessibility</li>
+          <p>
+            Habitual Genesis is how I take on freelance, pro bono,
+            and consulting work. I started it in 2016 and have used
+            it to help non-profits, small businesses, and authors
+            get online without big budgets.
+          </p>
+          <ul class="unstyled-list">
+            <li>
+              <h3>Read the Room Education (2026, ongoing)</h3>
+              <p>
+                Pro bono website work for a non-profit focused on
+                early-childhood education. Added Mailchimp
+                newsletter signups and reworked the mobile layout.
+                The mailing list grew 40% and mobile engagement
+                went up 25%.
+              </p>
+            </li>
+            <li>
+              <h3>'Slashtag' Website (2021)</h3>
+              <p>
+                Built a mobile-first site for author Jon Cohn's
+                book using Bootstrap, HTML5, CSS3, and JavaScript.
+                Book sales went up 20% in the first month.
+              </p>
+            </li>
+            <li>
+              <h3>Mexic-Arte Museum (2017)</h3>
+              <p>
+                Led a team of four to create a volunteer-maintained
+                web presence for the museum during building
+                renovations. Presented the recommended solution
+                to the board of trustees.
+              </p>
+            </li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Previous Roles (2014&ndash;2020)</summary>
+          <ul class="unstyled-list">
+            <li>
+              <h3>
+                Rewards Platform Re-architecture,
+                WorkTango (2019&ndash;2020)
+              </h3>
+              <p>
+                Led a front-end team of three to move the Rewards
+                platform from Rails to React. Customer engagement
+                increased 15% and page load times dropped 30%.
+              </p>
+            </li>
+            <li>
+              <h3>
+                Paywall Architecture,
+                Cond&eacute; Nast (2017&ndash;2019)
+              </h3>
+              <p>
+                Built a brand-agnostic paywall and React component
+                library used across 26 media brands. Vanity Fair
+                and Wired saw 100% year-over-year subscription
+                growth. I also wrote a
+                <a
+                  href="https://web.archive.org/web/20211202210445/https://technology.condenast.com/story/end-to-end-testing-conde-nast-paywalls"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Blog post on end-to-end testing the paywalls (opens in new tab)">blog post on e2e testing the paywalls</a>.
+              </p>
+            </li>
+            <li>
+              <h3>
+                Bypass Mobile (2016) &amp;
+                Union Metrics (2014&ndash;2016)
+              </h3>
+              <p>
+                Earlier Rails work: a JSON-API licensing platform
+                at Bypass Mobile, and a legacy codebase migration
+                at Union Metrics that improved performance by 20%.
+              </p>
+            </li>
           </ul>
         </details>
       </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <h3>Key Projects</h3>
-        <ul style="list-style-type: none; padding: 0">
-          <li>
-            <h4>'Slashtag' Website Development at Habitual Genesis:</h4>
-            Oli deployed a mobile-first, low-maintenance website for
-            award-winning author Jon Cohn's book 'Slashtag', leveraging
-            Bootstrap, HTML5, CSS3, and JavaScript.
-          </li>
-          <li>
-            <h4>Web Presence for Mexic-Arte Museum at Habitual Genesis:</h4>
-            He played a key role in creating a seamless, volunteer-maintained
-            web presence for the museum during building renovations.
-          </li>
-          <li>
-            <h4>
-              Web Enhancement for Read the Room Education at Habitual Genesis:
-            </h4>
-            He added a newsletter signup and optimized the mobile layout and
-            information architecture for this non-profit.
-          </li>
-          <li>
-            <h4>
-              Rewards Platform Re-architecture at WorkTango (formerly KazooHR):
-            </h4>
-            Oli re-architected the Rewards platform from Rails to ReactJS, which
-            led to a 15% increase in customer engagement.
-          </li>
-          <li>
-            <h4>Design Features and Paywall Architecture at Condé Nast:</h4>
-            He delivered new design features and ReactJS components for over 26
-            media brands and built a brand-agnostic paywall architecture.
-          </li>
-          <li>
-            <h4>Product Licensing Platform at Bypass Mobile:</h4>
-            At Bypass Mobile, Oli designed and developed a JSON-API spec product
-            licensing platform using Ruby-on-Rails.
-          </li>
-          <li>
-            <h4>Codebase Migration at Union Metrics:</h4>
-            Oli migrated and refactored two legacy codebases to use Rails 4,
-            improving maintainability, security, and performance.
-          </li>
-        </ul>
-        <h3>Other Projects</h3>
+
+      <section id="community">
+        <h2>Community &amp; Events</h2>
+        <p>
+          Organising and showing up at events is something I've
+          done since before I was an engineer. A few highlights:
+        </p>
         <ul>
           <li>
-            <h4>
-              <a
-                href="https://github.com/olitreadwell/the-motherloving-website"
-                target="_blank">
-                The Mother-loving Website:
-              </a>
-            </h4>
-            Takes it's inspiration from other similar lightweight websites. It
-            improves upon those sites by being safe for work, among other small
-            additions.
+            Co-organiser, TechStars Startup Weekend
+            (2012&ndash;2014)
           </li>
           <li>
-            <h4>
-              <a
-                href="https://github.com/olitreadwell/markdown-to-github-pages-test/"
-                target="_blank">
-                Markdown to Github Pages Test:
-              </a>
-            </h4>
-            An experiment to build a free, mobile-friendly website that can be
-            edited and updated by someone without web development experience. It
-            only uses markdown, a simple word formatting syntax and deploys
-            directly to GitHub Pages.
+            Organiser, speaker, and MC at Silicon Beach Melbourne
+            (2012&ndash;2013)
+          </li>
+          <li>
+            Organiser, speaker, and MC at Refresh Austin
+            (2015&ndash;2017)
+          </li>
+          <li>
+            Volunteer, Learn to Code Austin with Galvanize
+            (2016&ndash;2017)
+          </li>
+          <li>
+            Moderator, Ethics Panel at Austin on Rails (2019)
+          </li>
+          <li>
+            Upcoming speaker, NZ Tech Rally 2026
+          </li>
+        </ul>
+      </section>
+
+      <section id="open-source">
+        <h2>Open Source</h2>
+        <p>
+          I like contributing to open source projects that help
+          people. Having spent years organising tech events and
+          meetups, I'm drawn to community-facing tools where I
+          can pitch in on testing, accessibility, or docs.
+        </p>
+        <ul class="oss-list">
+          <li>
+            <a
+              href="https://github.com/ro-savage/nz-tech-events"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="nz-tech-events on GitHub (opens in new tab)">nz-tech-events</a>
+            - a Rails app for tracking NZ tech events. I've
+            contributed test suites, security fixes, accessibility
+            improvements, SEO features, and GitHub Actions CI.
+          </li>
+          <li>
+            <a
+              href="https://github.com/olitreadwell/yaass-as-a-service"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Yaass-as-a-Service on GitHub (opens in new tab)">Yaass-as-a-Service (YaaS)</a>
+            - a simple API that returns a random approval reason.
+            Use it when you need a realistic "yes" or want to
+            simulate being turned up in style.
+          </li>
+          <li>
+            <a
+              href="https://github.com/olitreadwell/the-motherloving-website"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="The Mother-loving Website on GitHub (opens in new tab)">The Mother-loving Website</a>
+            - a safe-for-work lightweight personal site template.
+            This site is based on it.
+          </li>
+          <li>
+            <a
+              href="https://github.com/olitreadwell/roberts-rules-of-order"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Robert's Rules of Order on GitHub (opens in new tab)">Robert's Rules of Order</a>
+            - a web-friendly guide to running meetings. Born out
+            of years of organising meetups and community events.
+          </li>
+          <li>
+            <a
+              href="https://github.com/olitreadwell/awesome-olitreadwell"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="awesome-olitreadwell on GitHub (opens in new tab)">awesome-olitreadwell</a>
+            - my personal list of tools, resources, and links I
+            actually use or find interesting.
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#back-to-top">Back To Top</a>
+
+    <footer class="section-border-top">
+      <a href="#back-to-top">Back to Top</a>
       <details>
         <summary>Links</summary>
-        <ul style="list-style-type: none; padding: 0">
+        <ul class="unstyled-list">
           <li>
             <a
               href="https://www.linkedin.com/in/olitreadwell/"
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile (opens in new tab)">
               LinkedIn
             </a>
           </li>
           <li>
             <a
               href="https://github.com/olitreadwell"
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub profile (opens in new tab)">
               GitHub
             </a>
           </li>
           <li>
             <a
               href="https://www.github.com/olitreadwell/resume"
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Resume on GitHub (opens in new tab)">
               Resume
             </a>
           </li>
           <li>
             <a
               href="https://instagram.com/habitualgenesis"
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Photography on Instagram (opens in new tab)">
               Photography
             </a>
           </li>
           <li>
             <a
               href="mailto:oliver.treadwell@gmail.com"
-              target="_blank">
+              aria-label="Send an email to Oli">
               Contact Me
             </a>
           </li>
           <li>
             <a
               href="https://fantastical.app/olitreadwell/30"
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Book a call on Fantastical (opens in new tab)">
               Schedule a Call
             </a>
           </li>
@@ -301,6 +602,6 @@
       </details>
     </footer>
   </body>
+  <!-- Copyright (C) 2026 Oli Treadwell -->
+  <!-- License: https://github.com/olitreadwell/olitreadwell.github.io/blob/master/LICENSE -->
 </html>
-<!-- Copyright (C) 2023  Oli Treadwell -->
-<!-- License: https://github.com/olitreadwell/olitreadwell.github.io/blob/master/LICENSE -->
