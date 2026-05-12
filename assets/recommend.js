@@ -15,7 +15,7 @@
 
   function buildSubject(v) {
     return v.yourName
-      ? `LinkedIn recommendation draft — from ${v.yourName}`
+      ? `LinkedIn recommendation draft from ${v.yourName}`
       : "LinkedIn recommendation draft";
   }
 
@@ -23,7 +23,7 @@
     const name = v.yourName || "[your name]";
     const contextLine = v.ourContext
       ? `Context: we worked together at ${v.ourContext}.`
-      : "Context: [where we worked together — company, project, or course]";
+      : "Context: [where we worked together. Company, project, or course.]";
 
     return [
       "Hi Oli,",
@@ -32,7 +32,7 @@
       "",
       contextLine,
       "",
-      "1) A specific moment. Describe one project or moment where Oli's work made a measurable difference — what changed because he was on it?",
+      "1) A specific moment. Describe one project or moment where Oli's work made a measurable difference. What changed because he was on it?",
       "   ",
       "",
       "2) How he works with others. What's it like to be on Oli's team or in a code review with him? Communication, mentoring, handling disagreement.",
@@ -47,7 +47,8 @@
       "5) One-sentence recommendation. If a hiring manager asked you in one sentence whether to hire Oli, what would you say?",
       "   ",
       "",
-      `— ${name}`,
+      "Thanks,",
+      name,
     ].join("\n");
   }
 
