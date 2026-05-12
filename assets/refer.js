@@ -45,7 +45,7 @@
       "Site: https://olitreadwell.github.io",
       "Resume: https://github.com/olitreadwell/resume",
       "LinkedIn: https://www.linkedin.com/in/olitreadwell/",
-      "Schedule a meeting with Oli: https://fantastical.app/olitreadwell/30",
+      "Schedule a meeting with Oli: https://calendar.app.google/rjCZNUsxjo814vtd9",
       "",
       "Thanks,",
       name,
@@ -60,7 +60,7 @@
       "",
       "Site: https://olitreadwell.github.io",
       "LinkedIn: https://www.linkedin.com/in/olitreadwell/",
-      "Schedule a meeting: https://fantastical.app/olitreadwell/30",
+      "Schedule a meeting: https://calendar.app.google/rjCZNUsxjo814vtd9",
     ];
     if (v.yourName) {
       lines.push("", `Shared by ${v.yourName}.`);
@@ -75,7 +75,7 @@
       "Site: https://olitreadwell.github.io",
       "Resume: https://github.com/olitreadwell/resume",
       "LinkedIn: https://www.linkedin.com/in/olitreadwell/",
-      "Schedule a meeting: https://fantastical.app/olitreadwell/30",
+      "Schedule a meeting: https://calendar.app.google/rjCZNUsxjo814vtd9",
     ];
     if (v.yourName) {
       const tag = v.yourCompany
