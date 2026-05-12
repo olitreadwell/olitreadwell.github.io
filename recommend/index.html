@@ -106,65 +106,213 @@
         </p>
       </section>
 
-      <section id="personalize" class="section-border-top">
-        <h2>Your details (optional)</h2>
-        <p id="personalize-hint">
-          Filling these in personalises the email subject and
-          intro. Both fields are optional.
+      <section id="form" class="section-border-top">
+        <h2>Write a recommendation</h2>
+        <p id="form-hint">
+          Every field is optional. As you fill things in, the
+          preview at the bottom assembles into a recommendation
+          you can email me or paste into LinkedIn. Your draft is
+          saved in your browser so you can come back to it.
         </p>
-        <form id="recommend-form" aria-describedby="personalize-hint">
-          <div class="form-field">
-            <label for="your-name">Your name</label>
-            <input
-              id="your-name"
-              name="yourName"
-              type="text"
-              autocomplete="name" />
-          </div>
-          <div class="form-field">
-            <label for="our-context">
-              Where we worked together
-              (company, project, or course)
-            </label>
-            <input
-              id="our-context"
-              name="ourContext"
-              type="text" />
-          </div>
-        </form>
-      </section>
+        <form id="recommend-form" aria-describedby="form-hint">
 
-      <section id="prompts" class="section-border-top">
-        <h2>Prompts to choose from</h2>
-        <ol>
-          <li>
-            <strong>A specific moment.</strong> Describe one
-            project or moment where my work made a measurable
-            difference. What changed because I was on it?
-          </li>
-          <li>
-            <strong>How I work with others.</strong> What's it
-            like to be on my team or in a code review with me?
-            Communication, mentoring, how I handle disagreement.
-          </li>
-          <li>
-            <strong>Strength you'd hire for.</strong> If you were
-            building a team, what's the role you'd put me in
-            first, and why? Senior IC, frontend lead, mentor,
-            anything else.
-          </li>
-          <li>
-            <strong>Something less obvious.</strong> What's a
-            quality of mine that doesn't show up on a resume?
-            Curiosity, calm under pressure, a knack for
-            clarifying ambiguous requirements?
-          </li>
-          <li>
-            <strong>One-sentence recommendation.</strong> If a
-            hiring manager asked you in one sentence whether to
-            hire me, what would you say?
-          </li>
-        </ol>
+          <fieldset>
+            <legend>About you</legend>
+            <div class="form-field">
+              <label for="your-name">Your name</label>
+              <input
+                id="your-name"
+                name="yourName"
+                type="text"
+                autocomplete="name"
+                placeholder="e.g. Sam Carter" />
+            </div>
+            <div class="form-field">
+              <label for="your-title">
+                Your current role or title
+              </label>
+              <input
+                id="your-title"
+                name="yourTitle"
+                type="text"
+                placeholder="e.g. Senior Software Engineer at Comcast" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Our work together</legend>
+            <div class="form-field">
+              <label for="relationship">
+                Working relationship
+              </label>
+              <select id="relationship" name="relationship">
+                <option value="">Choose one</option>
+                <option value="peer">
+                  We worked on the same team as peers
+                </option>
+                <option value="manager">
+                  I was Oli's manager
+                </option>
+                <option value="report">
+                  Oli was my manager
+                </option>
+                <option value="collaborator">
+                  We collaborated across teams
+                </option>
+                <option value="instructor">
+                  I was Oli's instructor
+                </option>
+                <option value="student">
+                  I was Oli's student
+                </option>
+                <option value="client">
+                  I was Oli's client
+                </option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="our-context">
+                Where we worked together
+                (company, project, or course)
+              </label>
+              <input
+                id="our-context"
+                name="ourContext"
+                type="text"
+                placeholder="e.g. Cond&eacute; Nast, paywall team" />
+            </div>
+            <div class="form-field">
+              <label for="duration">For how long</label>
+              <input
+                id="duration"
+                name="duration"
+                type="text"
+                placeholder="e.g. the last year and a half" />
+            </div>
+            <div class="form-field">
+              <label for="what-we-worked-on">
+                What you worked on (products, projects, or tech)
+              </label>
+              <input
+                id="what-we-worked-on"
+                name="whatWeWorkedOn"
+                type="text"
+                placeholder="e.g. wired.com and newyorker.com, React and Redux" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your words</legend>
+
+            <div class="form-field">
+              <label for="moment">A specific moment</label>
+              <p class="hint">
+                A PR review, pair-programming session, meeting,
+                or any concrete moment where Oli's work made a
+                measurable difference. What changed because he
+                was on it?
+              </p>
+              <textarea
+                id="moment"
+                name="moment"
+                rows="3"
+                placeholder="e.g. He spotted an N+1 query in a Cypress PR review that would have shipped to production. Saved us a week of incident response."></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="works-with-others">
+                How he works with others
+              </label>
+              <p class="hint">
+                What's it like to be on Oli's team or in a code
+                review with him? Communication, mentoring, how
+                he handles disagreement.
+              </p>
+              <textarea
+                id="works-with-others"
+                name="worksWithOthers"
+                rows="3"
+                placeholder="e.g. He gives feedback that lands without making anyone feel small. Even in heated standups he stays curious."></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="strength">
+                Strength you'd hire for
+              </label>
+              <p class="hint">
+                If you were building a team, what's the role
+                you'd put Oli in first, and why?
+              </p>
+              <textarea
+                id="strength"
+                name="strength"
+                rows="3"
+                placeholder="e.g. Senior IC on a team that needs design-system rigour and accessibility instincts baked in from day one."></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="less-obvious">
+                Something less obvious
+              </label>
+              <p class="hint">
+                What's a quality of his that doesn't show up on
+                a resume? Curiosity, calm under pressure, a
+                knack for clarifying ambiguous requirements?
+              </p>
+              <textarea
+                id="less-obvious"
+                name="lessObvious"
+                rows="3"
+                placeholder="e.g. He has a knack for rewriting a vague spec into three specific questions, which always gets the team unstuck."></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="compared-to-peers">
+                Compared to peers
+              </label>
+              <p class="hint">
+                How does Oli compare to other engineers you've
+                worked with at his level?
+              </p>
+              <textarea
+                id="compared-to-peers"
+                name="comparedToPeers"
+                rows="3"
+                placeholder="e.g. The bar he sets on testing and review thoroughness is higher than I usually see at his level."></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="trust-him-with">
+                You'd trust him with
+              </label>
+              <p class="hint">
+                What kind of work or responsibility would you
+                happily hand to Oli without checking in?
+              </p>
+              <textarea
+                id="trust-him-with"
+                name="trustHimWith"
+                rows="3"
+                placeholder="e.g. A greenfield product with a small team and a fuzzy brief, or a legacy codebase that needs a steady hand."></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="one-sentence">
+                One-sentence recommendation
+              </label>
+              <p class="hint">
+                If a hiring manager asked you in one sentence
+                whether to hire Oli, what would you say?
+              </p>
+              <textarea
+                id="one-sentence"
+                name="oneSentence"
+                rows="2"
+                placeholder="e.g. Hire him; he raises the bar for everyone around him without making it about himself."></textarea>
+            </div>
+          </fieldset>
+        </form>
       </section>
 
       <section id="showcase" class="section-border-top">
@@ -176,6 +324,39 @@
         </p>
         <figure class="recommendation">
           <blockquote>
+            <p>
+              I have worked closely with Oli for the last year
+              and a half at Conde Nast developing software for
+              a variety of very high-traffic websites including
+              wired.com, newyorker.com, and vanityfair.com. The
+              codebases for these sites are written in
+              JavaScript (ES6/7 and Node) and leverage libraries
+              such as React, Redux, Lodash, Hapi, Webpack,
+              Babel, Eslint, Mocha, Jest, and Puppeteer.
+              Working together on these various projects, I
+              have seen Oli become proficient at writing
+              production quality code in state-of-the-art
+              JavaScript stacks. Not only has Oli become a
+              valuable member of our agile team, he has become
+              very skilled at communicating and collaborating
+              with other teams, working in their codebases and
+              within their processes when required.
+            </p>
+            <p>
+              I have had the opportunity to work on few green
+              field projects with Oli. I was very happy to see
+              that he showed a sense of ownership in these
+              projects. It was not uncommon for him to suggest
+              improvements and make personal contributions
+              towards those ends on his own initiative. It can
+              tell from his work that he values both quality
+              and maintainable code. I have also appreciated
+              that he is willing and able to take on the
+              sometimes tedious, but very necessary work
+              assigned to our team. This work included updating
+              legacy code, application maintenance, manual
+              testing, on-call support, and documentation.
+            </p>
             <p>
               No matter the type of work, Oli maintains a level
               of commitment, dependability and accountability
@@ -189,38 +370,62 @@
               Of particular note, Oli has the very valuable
               ability to communicate clearly and precisely both
               in his speaking and writing. His technical
-              communication skills are very strong&hellip; his
-              attention to detail, and thoroughness of review
-              has often helped me uncover issues that I missed,
-              and provided valuable suggestions to improve my
-              code.
+              communication skills are very strong. This
+              facility in discussing technical topics makes him
+              a joy to work with in daily meetings and
+              especially when pair programming. This skill also
+              afford him clarity in his code, tests,
+              documentation and the pull requests. Speaking of
+              pull requests, I am always glad when Oli reviews
+              my pull requests. It has been my experience that
+              even at my level of skill, his attention to
+              detail, and thoroughness of review has often
+              helped me uncover issues that I missed, and
+              provided valuable suggestions to improve my code.
             </p>
             <p>
               It is hard to overstate the value that Oli brings
-              to the table as an Engineer.
+              to the table as an Engineer. I enjoy working with
+              him and hope to have the opportunity to work with
+              him on projects in the future.
             </p>
           </blockquote>
           <figcaption>
             Derrick Parkhurst, Senior Software Engineer at
-            Cond&eacute; Nast.
-            <a
-              href="https://github.com/olitreadwell/resume/blob/main/linkedin-recommendations.md"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Full recommendation and others in the resume repo (opens in new tab)">
-              Read the full version
-            </a>.
+            Cond&eacute; Nast. Posted December 11, 2018.
           </figcaption>
         </figure>
+      </section>
+
+      <section id="preview-section" class="section-border-top">
+        <h2>Preview</h2>
+        <p id="preview-empty">
+          Fill in some fields above to see the recommendation
+          assemble here.
+        </p>
+        <pre
+          id="email-preview"
+          class="preview"
+          aria-label="Recommendation preview"
+          hidden></pre>
+        <p
+          id="length-warning"
+          class="hint length-warning"
+          hidden>
+          Your draft is long enough that the email button might
+          fail on some mail clients. Use Copy recommendation
+          instead and paste into a fresh email.
+        </p>
       </section>
 
       <section id="cta" class="section-border-top">
         <h2>Send it</h2>
         <p>
-          Opens an email to
-          <code>oliver.treadwell@gmail.com</code> with the
-          prompts and your context pre-filled. Delete anything
-          you don't want before sending.
+          Two ways to get your draft to me. The mail button
+          opens a draft to <code>oliver.treadwell@gmail.com</code>
+          with everything pre-filled. The copy button puts the
+          recommendation on your clipboard so you can paste it
+          straight into LinkedIn's recommendation flow.
         </p>
         <p>
           <a
@@ -229,14 +434,13 @@
             href="mailto:oliver.treadwell@gmail.com?subject=LinkedIn%20recommendation%20draft">
             Open email draft
           </a>
+          <button
+            id="copy-recommendation"
+            class="button"
+            type="button">
+            Copy recommendation
+          </button>
         </p>
-        <details>
-          <summary>Preview the email body</summary>
-          <pre
-            id="email-preview"
-            class="preview"
-            aria-label="Email body preview"></pre>
-        </details>
       </section>
     </main>
 
@@ -285,6 +489,11 @@
       </details>
     </footer>
 
+    <div
+      id="toast"
+      class="toast"
+      role="status"
+      aria-live="polite"></div>
     <script src="/assets/recommend.js" defer></script>
   </body>
 </html>

@@ -98,31 +98,66 @@
           clipboard blurb below. All fields are optional.
         </p>
         <form id="refer-form" aria-describedby="personalize-hint">
-          <div class="form-field">
-            <label for="your-name">Your name</label>
-            <input
-              id="your-name"
-              name="yourName"
-              type="text"
-              autocomplete="name" />
-          </div>
-          <div class="form-field">
-            <label for="your-company">Your company</label>
-            <input
-              id="your-company"
-              name="yourCompany"
-              type="text"
-              autocomplete="organization" />
-          </div>
-          <div class="form-field">
-            <label for="role-context">
-              Role or team they're hiring for
-            </label>
-            <input
-              id="role-context"
-              name="roleContext"
-              type="text" />
-          </div>
+          <fieldset>
+            <legend>About you</legend>
+            <div class="form-field">
+              <label for="your-name">Your name</label>
+              <input
+                id="your-name"
+                name="yourName"
+                type="text"
+                autocomplete="name"
+                placeholder="e.g. Sam Carter" />
+            </div>
+            <div class="form-field">
+              <label for="your-company">Your company</label>
+              <input
+                id="your-company"
+                name="yourCompany"
+                type="text"
+                autocomplete="organization"
+                placeholder="e.g. Acme Industries" />
+            </div>
+            <div class="form-field">
+              <label for="how-you-know">
+                How you know Oli
+              </label>
+              <input
+                id="how-you-know"
+                name="howYouKnow"
+                type="text"
+                placeholder="e.g. Former manager at WorkTango" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>What you'd like to say</legend>
+            <div class="form-field">
+              <label for="role-context">
+                Role or team they're hiring for
+              </label>
+              <input
+                id="role-context"
+                name="roleContext"
+                type="text"
+                placeholder="e.g. Senior Frontend Engineer" />
+            </div>
+            <div class="form-field">
+              <label for="your-vouch">
+                A line or two in your own words about Oli
+              </label>
+              <p class="hint">
+                Optional. Gets woven into the email body and
+                both blurbs. Makes the referral feel personal
+                instead of templated.
+              </p>
+              <textarea
+                id="your-vouch"
+                name="yourVouch"
+                rows="3"
+                placeholder="e.g. Oli is the kind of engineer who quietly raises the bar for everyone around him. Our codebase was visibly better six months after he joined."></textarea>
+            </div>
+          </fieldset>
         </form>
       </section>
 
