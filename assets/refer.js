@@ -37,11 +37,11 @@
       "",
       `I wanted to flag Oli Treadwell as someone worth a conversation${companyPhrase}${rolePhrase}. He's a senior software engineer with 10+ years across media, HR tech, healthcare, and compliance. Day to day he works in React, Next.js, TypeScript, Node.js, and Ruby on Rails.`,
       "",
-      "A couple of highlights from his recent work:",
+      "Two examples:",
       "- 100%+ subscription revenue growth at Condé Nast, where he led the paywall architecture across 26 media brands.",
       "- 30% page-load reduction and 15% engagement lift at WorkTango, where he rebuilt the Rewards platform from Rails to React.",
       "",
-      "Quick links:",
+      "Links:",
       "Site: https://olitreadwell.github.io",
       "Resume: https://github.com/olitreadwell/resume",
       "LinkedIn: https://www.linkedin.com/in/olitreadwell/",
@@ -70,7 +70,7 @@
 
   function buildBlurb(v) {
     const lines = [
-      "Sharing a strong engineer in case it's useful for any of your teams. Oli Treadwell is a senior full-stack engineer (React, Next.js, TypeScript, Node.js, and some Rails) with a decade across media, HR tech, healthcare, and compliance.",
+      "Sharing this in case any of your teams are hiring. Oli Treadwell is a senior full-stack engineer (React, Next.js, TypeScript, Node.js, and some Rails) with a decade across media, HR tech, healthcare, and compliance.",
       "",
       "Site: https://olitreadwell.github.io",
       "Resume: https://github.com/olitreadwell/resume",
