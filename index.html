@@ -248,13 +248,22 @@
                   aria-label="price-to-impact on GitHub (opens in new tab)">Price &rarr; Impact</a>
               </h3>
               <p>
-                Paste any price in any currency, see what it could
-                buy at a high-impact charity. Three shells from one
-                codebase: a Next.js web converter, a drag-to-bookmarks
-                bookmarklet, and a Chrome MV3 extension that
-                annotates prices as you browse. Built with Bun
-                workspaces, Vitest, GitHub Actions CI, MIT licensed.
-                Charity figures are GiveWell-derived approximations.
+                Paste &pound;60, $4, or any other price and see
+                what it could buy at a high-impact charity (anti-malaria
+                bednets, deworming treatments, direct cash transfers).
+                Three shells from one codebase: a Next.js web converter,
+                a drag-to-bookmarks bookmarklet, and a Chrome MV3
+                extension that annotates prices as you browse.
+              </p>
+              <p>
+                Built with TypeScript and Bun workspaces. Charity
+                data is GiveWell-derived with an
+                <code>asOf</code>
+                field on every figure so the freshness is visible.
+                CI runs lint, typecheck, test, and build on every push.
+                Open source, MIT licensed. The math is the easy part.
+                The friction is what kills the comparison, and removing
+                the friction is the design problem.
               </p>
             </li>
             <li>
