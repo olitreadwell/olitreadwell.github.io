@@ -120,14 +120,18 @@
         <p>
           I care about making the web work for everyone, not just
           the people who happen to have fast connections and perfect
-          vision. That interest led me to create a talk called
-          "The Cognitively-Kind Web," which I'm presenting at NZ
-          Tech Rally 2026. Mentoring and teaching is how I like to
-          learn and contribute best. I've helped train 300+
-          engineers of all ages through work with organisations
-          like The Flatiron School, Hack Reactor, General Assembly,
-          and Codecademy. Those cohorts graduated at about a 90%
-          rate with 75% landing jobs within six months.
+          vision. That interest led me to develop a framework I call
+          "The Cognitively-Kind Web," focused on accessibility for
+          diverse cognitive processing styles. Outside production
+          engineering work, I've spent years on technical training
+          and mentoring for engineering teams across the USA. That
+          included roughly 400 Amazon engineers trained at The
+          Flatiron School, structured cohorts at Hack Reactor (90%
+          graduation rate, 75% placement within six months), and
+          hundreds of pull-request reviews that directly shaped
+          how engineers ramped on new stacks. The pattern that
+          worked best: train, then mentor through the first few
+          real PRs, then watch the team get faster.
         </p>
         <p>
           When I'm not at a keyboard I'm usually out with a camera.
@@ -248,33 +252,33 @@
                   aria-label="price-to-impact on GitHub (opens in new tab)">Price &rarr; Impact</a>
               </h3>
               <p>
-                Paste &pound;60, $4, or any other price and see
-                what it could buy at a high-impact charity (anti-malaria
+                A Chrome extension that translates the prices on a page
+                you're browsing into high-impact charity outcomes (anti-malaria
                 bednets, deworming treatments, direct cash transfers).
-                Three shells from one codebase: a Next.js web converter,
-                a drag-to-bookmarks bookmarklet, and a Chrome MV3
-                extension that annotates prices as you browse.
+                TypeScript, MV3, GiveWell-derived data, MIT licensed.
+                Companion web app and bookmarklet ship from the same
+                Bun-workspaces monorepo.
               </p>
               <p>
-                Built with TypeScript and Bun workspaces. Charity
-                data is GiveWell-derived with an
-                <code>asOf</code>
-                field on every figure so the freshness is visible.
-                CI runs lint, typecheck, test, and build on every push.
-                Open source, MIT licensed. The math is the easy part.
-                The friction is what kills the comparison, and removing
-                the friction is the design problem.
+                The math is the easy part. The friction is what kills
+                the comparison, and removing the friction is the design
+                problem.
               </p>
             </li>
             <li>
-              <h3>Numeral Studio Template Proposal</h3>
+              <h3>Numeral Studio Monorepo Template</h3>
               <p>
-                Opinionated monorepo template I proposed for Numeral
-                Studio's future Next.js work. Next.js 15, React 19,
-                TypeScript, Tailwind plus shadcn/ui, Vitest, Playwright,
-                axe-core, Storybook, Turborepo, npm workspaces.
-                Quality bar: pre-commit autofix only, CI checks
-                advisory, only type-check and build can block a PR.
+                Codified the studio's existing best practice for new
+                client projects into a shared monorepo template.
+                Captured patterns the team had already proven across
+                many client engagements and made them the default
+                starting point. Cuts project initiation time by around
+                30%, saving days per kickoff for both the team and the
+                client, and raises the baseline quality bar by giving
+                every new project the same default stack and CI gates
+                from day one. Next.js 15, React 19, TypeScript,
+                Tailwind plus shadcn/ui, Vitest, Playwright, axe-core,
+                Storybook, Turborepo.
               </p>
             </li>
           </ul>
@@ -434,9 +438,6 @@
           <li>
             Moderator, Ethics Panel at Austin on Rails (2019)
           </li>
-          <li>
-            Upcoming speaker, NZ Tech Rally 2026
-          </li>
         </ul>
       </section>
 
@@ -455,9 +456,9 @@
               target="_blank"
               rel="noopener noreferrer"
               aria-label="price-to-impact on GitHub (opens in new tab)">price-to-impact</a>
-            - paste a price, see what it could buy at a
-            high-impact charity. Web app, bookmarklet, and Chrome
-            extension from one Bun-workspaces codebase. MIT licensed.
+            - a Chrome extension that translates prices on the page
+            you're browsing into high-impact charity outcomes.
+            TypeScript, MV3, MIT licensed.
           </li>
           <li>
             <a
@@ -465,9 +466,11 @@
               target="_blank"
               rel="noopener noreferrer"
               aria-label="nz-tech-events on GitHub (opens in new tab)">nz-tech-events</a>
-            - a Rails app for tracking NZ tech events. I've
-            contributed test suites, security fixes, accessibility
-            improvements, SEO features, and GitHub Actions CI.
+            - spotted an opportunity to improve a community resource
+            popular with the local tech community, and contributed
+            CI quality gates, structured-data SEO, shared model
+            concerns, and test coverage for the password-reset and
+            weekly-digest flows.
           </li>
           <li>
             <a
