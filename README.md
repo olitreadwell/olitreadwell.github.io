@@ -21,6 +21,15 @@ cd olitreadwell.github.io
 open index.html
 ```
 
+## Minified assets
+
+Pages load minified assets (`assets/*.min.*`). Regenerate them after editing
+the readable sources:
+
+```bash
+node scripts/minify.mjs
+```
+
 ## Contributing
 
 This github repo is not accepting any contributions. 

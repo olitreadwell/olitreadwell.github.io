@@ -1,0 +1,12 @@
+# Oli Treadwell
+
+Senior Software Engineer and Accessibility Advocate in Wellington, New Zealand. 10+ years building for the web: React, Next.js, TypeScript, Node.js, Ruby on Rails, PostgreSQL.
+
+## Key pages
+
+- [Home](https://olitreadwell.github.io/): about, skills, projects, community, open source
+- [Refer Me](https://olitreadwell.github.io/refer/): pre-filled referral messages for recruiters and hiring managers
+- [Recommend Me](https://olitreadwell.github.io/recommend/): prompts and pre-filled email for writing a recommendation
+- [Resume repo](https://github.com/olitreadwell/resume): full resume, portfolio projects, hiring questions, recommendations
+- [GitHub](https://github.com/olitreadwell): open source work
+- [LinkedIn](https://www.linkedin.com/in/olitreadwell/): professional profile

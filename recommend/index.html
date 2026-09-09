@@ -9,6 +9,12 @@
     <meta
       name="description"
       content="Writing a recommendation for Oli Treadwell? A few prompts and a one-click pre-filled email to make it easy." />
+    <meta name="author" content="Oli Treadwell" />
+    <meta name="robots" content="index, follow" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data:; base-uri 'self'" />
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
@@ -22,13 +28,23 @@
       content="Writing a recommendation for Oli Treadwell? A few prompts and a one-click pre-filled email to make it easy." />
     <meta property="og:url" content="https://olitreadwell.github.io/recommend/" />
     <meta property="og:site_name" content="Oli Treadwell" />
+    <meta property="og:locale" content="en_NZ" />
     <meta property="og:image" content="https://olitreadwell.github.io/assets/og-image.png" />
-    <link rel="stylesheet" href="/assets/style.css" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <link rel="stylesheet" href="/assets/style.min.css" />
   </head>
   <body>
     <a href="#main-content" class="skip-link">
       Skip to main content
     </a>
+    <noscript>
+      <p class="noscript-note">
+        This page needs JavaScript to build the pre-filled email and
+        copy buttons. You can still email Oli directly at
+        <a href="mailto:oliver.treadwell@gmail.com">oliver.treadwell@gmail.com</a>.
+      </p>
+    </noscript>
 
     <header id="back-to-top" class="section-border-bottom">
       <h1><a href="/">Oli Treadwell</a></h1>
@@ -506,6 +522,6 @@
       class="toast"
       role="status"
       aria-live="polite"></div>
-    <script src="/assets/recommend.js" defer></script>
+    <script src="/assets/recommend.min.js" defer></script>
   </body>
 </html>
