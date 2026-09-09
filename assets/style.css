@@ -3,17 +3,34 @@
   --color-focus: #0056b3;
   --color-text: #222;
   --color-bg: #fff;
+  --color-muted: #555;
+  --color-surface: #f7f7f7;
+  --color-surface-hover: #f0f0f0;
   --spacing-section: 1rem;
   --spacing-list-indent: 1rem;
-  --font-family-base: sans-serif;
+  --font-family-base: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   --font-size-base: 16px;
   --line-height-base: 1.6;
-  --max-width-body: 85%;
+  --max-width-body: 60rem;
   --border-radius-sm: 0.3rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-border: #444;
+    --color-focus: #6ab0f3;
+    --color-text: #e6e6e6;
+    --color-bg: #1a1a1a;
+    --color-muted: #b0b0b0;
+    --color-surface: #242424;
+    --color-surface-hover: #2e2e2e;
+  }
+}
+
 body {
-  margin: 5% auto;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
   font-family: var(--font-family-base);
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
@@ -31,7 +48,7 @@ summary {
 }
 
 summary:hover {
-  background: #f0f0f0;
+  background: var(--color-surface-hover);
 }
 
 .skip-link {
@@ -71,14 +88,6 @@ summary:hover {
 
 .skills-list {
   padding: 0 var(--spacing-list-indent) 0;
-}
-
-.nested-details {
-  margin: 0.5rem 0 0.5rem 1rem;
-}
-
-.nested-details summary {
-  font-weight: normal;
 }
 
 #projects .unstyled-list li {
@@ -139,7 +148,7 @@ summary:hover {
 
 .form-field .hint {
   font-size: 0.95rem;
-  color: #555;
+  color: var(--color-muted);
   margin: 0.1rem 0 0.4rem;
   max-width: 40rem;
 }
@@ -161,7 +170,7 @@ fieldset legend {
 }
 
 .preview {
-  background: #f7f7f7;
+  background: var(--color-surface);
   padding: 0.75rem;
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-sm);
@@ -184,7 +193,7 @@ fieldset legend {
 }
 
 .button:hover {
-  background: #f0f0f0;
+  background: var(--color-surface-hover);
 }
 
 .toast {
@@ -222,7 +231,7 @@ fieldset legend {
   padding: 1rem 1.25rem;
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-sm);
-  background: #f7f7f7;
+  background: var(--color-surface);
 }
 
 .recommendation blockquote {
@@ -246,4 +255,30 @@ fieldset legend {
 
 .button + .button {
   margin-left: 0.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toast {
+    transition: none;
+  }
+}
+
+@media print {
+  nav,
+  .skip-link,
+  .toast {
+    display: none;
+  }
+
+  body {
+    padding: 0;
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
 }

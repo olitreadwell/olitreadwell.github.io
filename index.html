@@ -2,16 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, height=device-height, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
       Oli Treadwell | Senior Software Engineer &amp; A11y Advocate
     </title>
     <meta
       name="description"
       content="Oli Treadwell - Senior Software Engineer and Accessibility Advocate based in Wellington, New Zealand. 10+ years building for the web." />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://olitreadwell.github.io/" />
+    <meta property="og:type" content="profile" />
+    <meta
+      property="og:title"
+      content="Oli Treadwell | Senior Software Engineer &amp; A11y Advocate" />
+    <meta
+      property="og:description"
+      content="Senior Software Engineer and Accessibility Advocate in Wellington, NZ. 10+ years building for the web. React, Next.js, TypeScript, Node.js." />
+    <meta property="og:url" content="https://olitreadwell.github.io/" />
+    <meta property="og:site_name" content="Oli Treadwell" />
+    <meta property="og:image" content="https://olitreadwell.github.io/assets/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Oli Treadwell | Senior Software Engineer &amp; A11y Advocate" />
+    <meta
+      name="twitter:description"
+      content="Senior Software Engineer and Accessibility Advocate in Wellington, NZ. 10+ years building for the web." />
+    <meta name="twitter:image" content="https://olitreadwell.github.io/assets/og-image.png" />
     <link rel="stylesheet" href="/assets/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oli Treadwell",
+        "url": "https://olitreadwell.github.io/",
+        "jobTitle": "Senior Software Engineer",
+        "email": "mailto:oliver.treadwell@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Wellington",
+          "addressCountry": "NZ"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/olitreadwell/",
+          "https://github.com/olitreadwell",
+          "https://instagram.com/habitualgenesis"
+        ],
+        "knowsAbout": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "Ruby on Rails",
+          "Web Accessibility",
+          "Design Systems",
+          "PostgreSQL"
+        ]
+      }
+    </script>
   </head>
   <body>
     <a href="#main-content" class="skip-link">
@@ -151,88 +201,72 @@
 
       <section id="skills">
         <h2>Technical Skills</h2>
-        <details>
-          <summary>Expand Skills List</summary>
+        <h3>Languages</h3>
+        <ul class="skills-list">
+          <li>JavaScript/ES6+</li>
+          <li>TypeScript</li>
+          <li>Python</li>
+          <li>Ruby</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>SASS/SCSS</li>
+          <li>SQL</li>
+        </ul>
 
-          <details class="nested-details">
-            <summary>Languages</summary>
-            <ul class="skills-list">
-              <li>JavaScript/ES6+</li>
-              <li>TypeScript</li>
-              <li>Python</li>
-              <li>Ruby</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>SASS/SCSS</li>
-              <li>SQL</li>
-            </ul>
-          </details>
+        <h3>Frameworks &amp; Libraries</h3>
+        <ul class="skills-list">
+          <li>React</li>
+          <li>Next.js</li>
+          <li>React Router</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>Ruby on Rails</li>
+          <li>Flask</li>
+          <li>GSAP</li>
+        </ul>
 
-          <details class="nested-details">
-            <summary>Frameworks &amp; Libraries</summary>
-            <ul class="skills-list">
-              <li>React</li>
-              <li>Next.js</li>
-              <li>React Router</li>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>Ruby on Rails</li>
-              <li>Flask</li>
-              <li>GSAP</li>
-            </ul>
-          </details>
+        <h3>Testing</h3>
+        <ul class="skills-list">
+          <li>Jest</li>
+          <li>React Testing Library</li>
+          <li>Cypress</li>
+          <li>Puppeteer</li>
+          <li>RSpec</li>
+          <li>Storybook</li>
+        </ul>
 
-          <details class="nested-details">
-            <summary>Testing</summary>
-            <ul class="skills-list">
-              <li>Jest</li>
-              <li>React Testing Library</li>
-              <li>Cypress</li>
-              <li>Puppeteer</li>
-              <li>RSpec</li>
-              <li>Storybook</li>
-            </ul>
-          </details>
+        <h3>Data &amp; Databases</h3>
+        <ul class="skills-list">
+          <li>PostgreSQL</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>GraphQL</li>
+          <li>Prisma ORM</li>
+          <li>Sanity CMS</li>
+        </ul>
 
-          <details class="nested-details">
-            <summary>Data &amp; Databases</summary>
-            <ul class="skills-list">
-              <li>PostgreSQL</li>
-              <li>MySQL</li>
-              <li>MongoDB</li>
-              <li>GraphQL</li>
-              <li>Prisma ORM</li>
-              <li>Sanity CMS</li>
-            </ul>
-          </details>
+        <h3>Infrastructure &amp; DevOps</h3>
+        <ul class="skills-list">
+          <li>Git &amp; GitHub</li>
+          <li>GitHub Actions</li>
+          <li>Jenkins</li>
+          <li>AWS</li>
+          <li>Heroku</li>
+          <li>Netlify</li>
+          <li>Docker</li>
+        </ul>
 
-          <details class="nested-details">
-            <summary>Infrastructure &amp; DevOps</summary>
-            <ul class="skills-list">
-              <li>Git &amp; GitHub</li>
-              <li>GitHub Actions</li>
-              <li>Jenkins</li>
-              <li>AWS</li>
-              <li>Heroku</li>
-              <li>Netlify</li>
-              <li>Docker</li>
-            </ul>
-          </details>
-
-          <details class="nested-details">
-            <summary>Practices</summary>
-            <ul class="skills-list">
-              <li>Web Accessibility (A11y)</li>
-              <li>Responsive Design</li>
-              <li>Component Architecture</li>
-              <li>Design Systems</li>
-              <li>Agile / Scrum</li>
-              <li>Code Review</li>
-              <li>Technical Writing</li>
-              <li>Mentoring &amp; Pair Programming</li>
-            </ul>
-          </details>
-        </details>
+        <h3>Practices</h3>
+        <ul class="skills-list">
+          <li>Web Accessibility (A11y)</li>
+          <li>Responsive Design</li>
+          <li>Component Architecture</li>
+          <li>Design Systems</li>
+          <li>Agile / Scrum</li>
+          <li>Code Review</li>
+          <li>Technical Writing</li>
+          <li>Mentoring &amp; Pair Programming</li>
+        </ul>
       </section>
 
       <section id="projects">
@@ -371,8 +405,23 @@
         </details>
 
         <details>
-          <summary>Previous Roles (2014&ndash;2020)</summary>
+          <summary>Previous Roles (2014&ndash;2025)</summary>
           <ul class="unstyled-list">
+            <li>
+              <h3>
+                PartsTrader Markets (2024&ndash;2025)
+              </h3>
+              <p>
+                Contract software engineering in Wellington.
+                Modernised onboarding by replacing
+                spreadsheet-driven setup steps with a .NET
+                service facade, a React/TypeScript console, and
+                a Windows-native toolchain aligned to Figma
+                prototypes. Stabilised releases with layered
+                service architecture and Cypress smoke tests,
+                gated by GitHub Actions pipelines.
+              </p>
+            </li>
             <li>
               <h3>
                 Rewards Platform Re-architecture,
@@ -410,6 +459,33 @@
                 Earlier Rails work: a JSON-API licensing platform
                 at Bypass Mobile, and a legacy codebase migration
                 at Union Metrics that improved performance by 20%.
+              </p>
+            </li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Teaching &amp; Mentoring (2016&ndash;2023)</summary>
+          <ul class="unstyled-list">
+            <li>
+              <h3>Flatiron School (2022&ndash;2023)</h3>
+              <p>
+                Software engineer and lead instructor for remote
+                and asynchronous training. Wrote and presented
+                curriculum on JavaScript, React, Python, Flask,
+                PostgreSQL, CI/CD, APIs, and web accessibility.
+                Led a working group promoting inclusive design
+                and accessibility practices.
+              </p>
+            </li>
+            <li>
+              <h3>Hack Reactor (2016&ndash;2017)</h3>
+              <p>
+                Instructor for full-time and part-time programs.
+                Built a mock interview app for students that
+                multiplied career services capacity. Programs
+                saw a 90% graduation rate and 75% job placement
+                within 90 days.
               </p>
             </li>
           </ul>
