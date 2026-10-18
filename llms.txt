@@ -1,6 +1,19 @@
 # Oli Treadwell
 
-Senior Software Engineer and Accessibility Advocate in Wellington, New Zealand. 10+ years building for the web: React, Next.js, TypeScript, Node.js, Ruby on Rails, PostgreSQL.
+Senior Software Engineer and Accessibility Advocate in Wellington, New Zealand. 10+ years building for the web: React, Next.js, TypeScript, Node.js, Ruby on Rails, C#/.NET, PostgreSQL.
+
+Also leads AI-assisted software delivery inside teams, not just personal use of the tools: building the agentic layer (MCP tooling, agent consumable checklists, review agents), rolling it out to a delivery team, owning CI/CD pipelines, build gates and monitoring, and working with LLM APIs and multi-agent pipelines. Teaches ChatGPT and GitHub Copilot use with the standard that the developer demonstrates understanding of the code rather than outsourcing it. Developed "The Cognitively-Kind Web," a framework for accessibility across diverse cognitive processing styles.
+
+## Open source highlights
+
+- [ai-harness](https://github.com/olitreadwell/ai-harness): one versioned home for AI coding-agent configuration, 127 skills validated against the agentskills.io spec, plus global instructions and subagent roles.
+- [react-performance-checklist](https://github.com/olitreadwell/react-performance-checklist): 34 React performance rules held as data, with an MCP server so an agent can list rules, fetch one, and plan an audit or fix.
+- [pr-vetting](https://github.com/olitreadwell/pr-vetting): dependency-free Python CLI and GitHub Action that tiers pull request authors from public GitHub signals.
+
+## Employment
+
+- Senior Software Engineer, Numeral Studio, Feb 2025 to Jun 2026.
+- Principal Engineer and Technical Consultant, Habitual Genesis, 2016 to present.
 
 ## Key pages
 
@@ -8,5 +21,6 @@ Senior Software Engineer and Accessibility Advocate in Wellington, New Zealand. 
 - [Refer Me](https://olitreadwell.github.io/refer/): pre-filled referral messages for recruiters and hiring managers
 - [Recommend Me](https://olitreadwell.github.io/recommend/): prompts and pre-filled email for writing a recommendation
 - [Resume repo](https://github.com/olitreadwell/resume): full resume, portfolio projects, hiring questions, recommendations
+- [Portfolio projects](https://github.com/olitreadwell/resume/blob/main/portfolio-projects.md): long-form project write-ups, including the AI and open-source work
 - [GitHub](https://github.com/olitreadwell): open source work
 - [LinkedIn](https://www.linkedin.com/in/olitreadwell/): professional profile
