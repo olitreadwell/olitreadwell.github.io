@@ -18,6 +18,8 @@
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preload" href="/assets/style.min.css" as="style" />
     <link rel="canonical" href="https://olitreadwell.com/refer/" />
     <meta property="og:type" content="website" />
     <meta
@@ -32,6 +34,28 @@
     <meta property="og:image" content="https://olitreadwell.com/assets/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Refer Oli Treadwell | Senior Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Three quick ways to refer Oli Treadwell to a recruiter, hiring manager, or your company's team channel." />
+    <meta name="twitter:image" content="https://olitreadwell.com/assets/og-image.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Refer Oli Treadwell",
+        "url": "https://olitreadwell.com/refer/",
+        "description": "Three quick ways to refer Oli Treadwell to a recruiter, hiring manager, or your company's team channel.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Oli Treadwell",
+          "url": "https://olitreadwell.com/"
+        }
+      }
+    </script>
     <link rel="stylesheet" href="/assets/style.min.css" />
   </head>
   <body>
@@ -125,7 +149,7 @@
           Filling these in updates the email, LinkedIn share, and
           clipboard blurb below. All fields are optional.
         </p>
-        <form id="refer-form" aria-describedby="personalize-hint">
+        <form id="refer-form" method="get" aria-describedby="personalize-hint">
           <fieldset>
             <legend>About you</legend>
             <div class="form-field">
@@ -212,6 +236,7 @@
               <pre
                 id="email-preview"
                 class="preview"
+                role="group"
                 aria-label="Email body preview"></pre>
             </details>
           </article>
@@ -226,6 +251,7 @@
             <pre
               id="linkedin-blurb-preview"
               class="preview"
+              role="group"
               aria-label="LinkedIn blurb preview"></pre>
             <p>
               <button
@@ -261,6 +287,7 @@
             <pre
               id="blurb-preview"
               class="preview"
+              role="group"
               aria-label="Slack or Teams blurb preview"></pre>
           </article>
         </div>

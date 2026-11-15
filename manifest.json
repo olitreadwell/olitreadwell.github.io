@@ -1,0 +1,16 @@
+{
+  "name": "Oli Treadwell",
+  "short_name": "Oli Treadwell",
+  "description": "Senior Software Engineer and Accessibility Advocate in Wellington, New Zealand.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
