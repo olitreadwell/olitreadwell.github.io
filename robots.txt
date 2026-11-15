@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://olitreadwell.github.io/sitemap.xml
+Sitemap: https://olitreadwell.com/sitemap.xml

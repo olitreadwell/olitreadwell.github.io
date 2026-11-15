@@ -1,10 +1,10 @@
 # My Personal Site
 
-My [Personal Site](https://olitreadwell.github.io) is based on the template at [The Mother-Loving Website](https://github.com/olitreadwell/the-motherloving-website/). 
+My [Personal Site](https://olitreadwell.com) is based on the template at [The Mother-Loving Website](https://github.com/olitreadwell/the-motherloving-website/). 
 
 ## Live Site
 
-The website is available at [https://olitreadwell.github.io/](https://olitreadwell.github.io/).
+The website is available at [https://olitreadwell.com/](https://olitreadwell.com/).
 
 ## Setup
 
