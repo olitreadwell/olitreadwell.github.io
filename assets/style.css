@@ -311,22 +311,3 @@ fieldset legend {
   }
 }
 
-@media print {
-  nav,
-  .skip-link,
-  .toast {
-    display: none;
-  }
-
-  body {
-    padding: 0;
-    max-width: none;
-    color: #000;
-    background: #fff;
-  }
-
-  a {
-    color: #000;
-    text-decoration: underline;
-  }
-}
